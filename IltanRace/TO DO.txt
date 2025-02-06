@@ -1,8 +1,8 @@
 To-Do:
 
-PRIORITY - core systems and planets
+PRIORITY - Replace temporary ships, icons, etc
 
-Medium - Ships and Outfits
+Medium - Ships, Outfits
 
 Minor - Weapons
 
