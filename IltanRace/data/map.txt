@@ -139,6 +139,7 @@ system "Chrali' Hajha"
 	pos -1208.2051 -877.37607
 	government Iltan
 	habitable 6480.2
+	link "Deep Space 19M5"
 	fleet IltanHeavyPatrol 4000
 	fleet IltanSingleShips 2100
 	object "Kalla' Eq' Station"
