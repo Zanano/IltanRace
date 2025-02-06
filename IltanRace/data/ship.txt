@@ -1,0 +1,479 @@
+#Gunboats, fighters, and additional ships WIP
+
+ship "Iltan Small Freighter"
+	sprite "ship/IltanSmallFreighter"
+	thumbnail "thumbnails/IltanSmallFreighterThumb"
+		scale 1
+	attributes
+		category "Light Freighter"
+		cost 1600000
+		mass 550
+		licenses 
+			"Iltan Basics"
+		bunks 12
+		"cargo space" 200
+		drag 12
+		"engine capacity" 180
+		"fuel capacity" 800
+		"heat dissipation" 0.6
+		hull 8500
+		"outfit space" 1200
+		"required crew" 6
+		shields 10000
+		"weapon capacity" 380
+		
+	outfits
+		"Denari A Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro A Power Bank"
+		"Annu'Ka Su Reverse Thrusters" 1
+		"Annu'Ka Su Directional Thrusters" 1
+		"Gehru Power System" 1
+		"Iltan Medium Cooling System" 1
+		"Iltan Small Cooling System" 1
+	
+	turret -25.5 -43.5
+	turret 25.5 -43.5
+	
+	engine -16.5 104.5
+	engine 16.5 104.5
+	
+ship "Iltan Gunboat"
+	sprite "ship/IltanGunboat"
+	thumbnail "thumbnails/IltanGunboatThumb"
+		scale 1
+	attributes
+		category "Light Warship"
+		cost 5600000
+		mass 550
+		licenses 
+			"Iltan MilTech"
+		bunks 12
+		"cargo space" 50
+		drag 7
+		"engine capacity" 300
+		"fuel capacity" 800
+		"heat dissipation" 0.8
+		hull 10000
+		"outfit space" 1200
+		"required crew" 6
+		shields 20000
+		"weapon capacity" 380
+		
+	outfits
+		"Denari SS Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro A Power Bank"
+		"Annu'Ka Su Reverse Thrusters" 1
+		"Annu'Ka Su Directional Thrusters" 1
+		"Annu'Ka Su Reaction Thrusters" 2
+		"Gehru Power System" 1
+		"Iltan Medium Cooling System" 1
+		"Iltan Small Cooling System" 1
+		"XellaCom Communications Node"
+		
+	engine -29 94
+	engine 29 94
+	
+	"reverse engine" -37 32
+		zoom 0.8
+	"reverse engine" 37 32
+		zoom 0.8
+	
+	turret 0 -41
+	turret 0 -11
+	turret 0 -65
+	gun -18 -83
+		under
+	gun 18 -83
+		under
+	
+	
+		
+ship "Orbi' Tah"
+	sprite "ship/OrbiTah"
+	#thumbnail "ship/OrbiTahThumb"
+	thumbnail "ship/InDeve" #TEMP
+		scale 1
+	attributes
+		category "Fast Warship"
+		cost 105600000
+		mass 1550
+		licenses 
+			"Iltan MilTech"
+		bunks 60
+		"cargo space" 300
+		drag 15
+		"engine capacity" 600
+		"fuel capacity" 1700
+		"heat dissipation" 0.5
+		hull 75000
+		"outfit space" 1700
+		"required crew" 15
+		shields 70000
+		"weapon capacity" 1000
+	
+	outfits
+		"Denari SS Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro A Power Bank" 2
+		"Annu'Ka Su Reverse Thrusters" 2
+		"Annu'Ka Su Directional Thrusters" 3
+		"Annu'Ka Su Reaction Thrusters" 2
+		"Gehru Power System" 1
+		"Iltan Armory"
+		"Iltan Technician Deck"
+		"XellaCom Communications Node"	
+		"Iltan Medium Cooling System" 3
+		
+	engine -200 94
+	engine 200 94
+	
+	"steering engine" -200 94
+		angle -30
+		left
+	"steering engine" 200 94
+		angle 30
+		right
+		
+	turret -143 -240
+	turret 143 -240
+	turret -170 -195
+	turret 170 -195
+	turret -143 -240
+		under
+	turret 143 -240
+		under
+	turret -170 -195
+		under
+	turret 170 -195
+		under
+	
+	gun -38 -105
+	gun 38 -105
+	gun -5 -117
+	gun 5 -117
+	
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+	bay Fighter 0 124
+		angle -180
+		under
+		"launch effect" "remnant internal"
+
+ship "Aggrero"
+	sprite "ship/Aggrero"
+	#thumbnail "ship/AggreroThumb"
+	thumbnail "ship/InDeve" #TEMP
+		scale 1
+	attributes
+		category "Fast Warship"
+		cost 870000000
+		mass 1100
+		licenses 
+			"Iltan MilTech"
+		bunks 35
+		"cargo space" 250
+		drag 45
+		"engine capacity" 750
+		"fuel capacity" 1000
+		"heat dissipation" 0.7
+		hull 60000
+		"outfit space" 1700
+		"required crew" 10
+		shields 40000
+		"weapon capacity" 1000
+		
+	outfits
+		"Denari SS Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro A Power Bank" 2
+		"Annu'Ka Su Reverse Thrusters" 2
+		"Annu'Ka Su Directional Thrusters" 4
+		"Annu'Ka Su Reaction Thrusters" 2
+		"Gehru Power System" 1
+		"Iltan Armory"
+		"Iltan Technician Deck"
+		"Iltan Medium Cooling System" 2
+		"XellaCom Communications Node"	
+		
+	engine -193.5 -34
+		angle -26
+	engine 193.5 -34
+		angle 26
+	engine -193.5 -34
+		angle -26
+	engine 193.5 -34
+	turret -182 110
+	turret 182 110
+	turret -173 56
+	turret 173 56
+	gun 0 -77
+	gun -47 -165
+		over
+	gun 47 -165
+		over
+
+ship Tetryon
+	sprite "ship/Tetryon"
+	#thumbnail "ship/TetryonThumb"
+	thumbnail "ship/InDeve" #TEMP
+		scale 1
+	attributes
+		category Superheavy
+		cost 4500000000
+		mass 4500
+		licenses 
+			"Iltan MilTech"
+		bunks 2000
+		"cargo space" 6000
+		drag 200
+		"engine capacity" 2000
+		"fuel capacity" 2000
+		"heat dissipation" 0.4
+		hull 180000
+		"outfit space" 8000
+		"required crew" 180
+		shields 180000
+		"weapon capacity" 3000
+	outfits
+		"Denari SS Shield Generator" 4
+		"Iltan Transport Drive"
+		"Oro-Plus Power Bank"
+		"Subspace Cannon Turret" 4
+		"XellaCom Communications Node" 2
+		"Annu'Ka Su Reverse Thrusters" 4
+		"Annu'Ka Su Directional Thrusters" 8
+		"Annu'Ka Su Reaction Thrusters" 4
+		"Gehru Power System" 3
+		"Iltan Armory" 2
+		"Iltan Technician Deck" 2
+		"Iltan Medium Cooling System" 6
+		
+	engine -39 171
+	engine 39 171
+	engine -66 174
+		zoom 0.6
+	engine 66 174
+		zoom 0.6
+	engine -13 143
+		zoom 0.2
+	engine 13 143
+		zoom 0.2
+		
+	turret -43.5 -76 "Subspace Cannon Turret"
+		under
+	turret 43.5 -76 "Subspace Cannon Turret"
+		under
+	turret -43.5 2 "Subspace Cannon Turret"
+		under
+	turret 43.5 2 "Subspace Cannon Turret"
+		under
+		
+	turret -43.5 -76
+	turret 43.5 -76
+	turret -43.5 2
+	turret 43.5 2
+	
+	gun -9.5 -172.5
+	gun 9.5 -172.5
+	
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+		
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	
+	description "Iltan superheavy flagship, only brought out during war or planetary defense. A formidable foe, acting as a carrier and superheavy battle cruiser."
+	description "Carries a full wing of drone fighters and can deploy two Fast Warships."
+
+ship "Tetryon X"
+	sprite "ship/Tetryon"
+	#thumbnail "ship/TetryonThumb"
+	thumbnail "ship/InDeve" #TEMP
+		scale 1
+	attributes
+		category Superheavy
+		cost 22000000000
+		mass 5000
+		licenses 
+			"Zanano's Merit Award"
+		bunks 3500
+		"cargo space" 10000
+		drag 150
+		"engine capacity" 2700
+		"fuel capacity" 3000
+		"heat dissipation" 0.5
+		hull 200000
+		"outfit space" 10000
+		"required crew" 1
+		shields 200000
+		"weapon capacity" 4000
+		
+	outfits
+		"Denari SS Shield Generator" 6
+		"Iltan Transport Drive"
+		"Iltan Generic Fuel Node" 10
+		"Oro-Plus Power Bank" 2
+		"Subspace Cannon" 8
+		"Subspace Cannon Turret" 16
+		"XellaCom Communications Node" 8
+		"Annu'Ka Su Reverse Thrusters" 8
+		"Annu'Ka Su Directional Thrusters" 14
+		"Annu'Ka Su Reaction Thrusters" 6
+		"Gehru Power System" 14
+		"Iltan Armory" 3
+		"Iltan Technician Deck" 3
+		"Iltan 'Cahj Ki' Bot" 20
+		"Iltan Astromech" 50
+		"Iltan Medium Cooling System" 10
+		
+	engine -39 171
+	engine 39 171
+	engine -66 174
+		zoom 0.6
+	engine 66 174
+		zoom 0.6
+	engine -13 143
+		zoom 0.2
+	engine 13 143
+		zoom 0.2
+		
+	turret -20 74 "Subspace Cannon Turret"
+	turret 20 74 "Subspace Cannon Turret"
+	turret -16 88 "Subspace Cannon Turret"
+	turret 16 88 "Subspace Cannon Turret"
+	turret -15 104 "Subspace Cannon Turret"
+	turret 15 104 "Subspace Cannon Turret"
+	turret -45 77 "Subspace Cannon Turret"
+	turret 45 77 "Subspace Cannon Turret"
+	turret -43 0 "Subspace Cannon Turret"
+	turret 43 0 "Subspace Cannon Turret"
+	turret -67 -38.5 "Subspace Cannon Turret"
+	turret 67 -38.5 "Subspace Cannon Turret"
+	turret -9.5 -172.5 "Subspace Cannon Turret"
+	turret 9.5 -172.5 "Subspace Cannon Turret"
+	turret -9.5 -172.5 "Subspace Cannon Turret"
+	turret 9.5 -172.5 "Subspace Cannon Turret"
+	
+	turret -76 35.5
+	turret 76 35.5
+	turret -50 47
+	turret 50 47
+	turret 0 21
+	
+	gun -28.5 -130 "Subspace Cannon"
+	gun 28.5 -130 "Subspace Cannon"
+	gun -25 -144.5 "Subspace Cannon"
+	gun 25 -144.5 "Subspace Cannon"
+	gun -19.5 -163.5 "Subspace Cannon"
+	gun 19.5 -163.5 "Subspace Cannon"
+	gun -6.5 -175.5 "Subspace Cannon"
+	gun 6.5 -175.5 "Subspace Cannon"
+	gun 0 -175.5
+	
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+	bay Drone 21.5 50
+		right
+		"launch effect" "remnant internal"
+	bay Drone -21.5 50
+		left
+		"launch effect" "remnant internal"
+		
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	bay "Fast Warship" 0 -122
+	
+	description "Originally the Flagship of a renowned Captain. The Tetryon X was custom built by the Iltan species as a gift for an act of extreme heroism. Featuring an advanced AI capable of replacing an otherwise massive crew, increased overall capabilities, and many additional gun and turret slots. This behemoth is a monster to behold."
+	description "Carries an even larger wing of drone fighters than the Tetryon, and can even deploy six fast warships."
+

@@ -1,0 +1,79 @@
+ship "Orbi' Tah" "Orbi' Tah (Patrol)"
+	add attributes
+		"self destruct" 1
+	outfits
+		"Iltan Generic Fuel Node" 8
+		"Subspace Cannon" 4
+		"Subspace Cannon Turret" 6
+		"XellaCom Communications Node" 2
+		"Iltan 'Cahj Ki' Bot" 5
+		"Iltan Astromech" 20
+
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+		
+ship Aggrero "Aggrero (Patrol)"
+	add attributes
+		"self destruct" 1
+	outfits
+		"Iltan Generic Fuel Node" 5
+		"Subspace Cannon" 3
+		"Subspace Cannon Turret" 4
+		"XellaCom Communications Node" 3
+		"Iltan Astromech" 20
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	
+ship Tetryon "Tetryon (Warfleet)"
+	add attributes
+		"self destruct" 1
+	outfits
+		"Denari SS Shield Generator" 6
+		"Oro-Plus Power Bank" 2
+		"Subspace Cannon Turret" 8
+		"XellaCom Communications Node" 4
+		"Iltan 'Cahj Ki' Bot" 15
+		"Iltan Astromech" 30
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	gun "Subspace Disruptor"
+	gun "Subspace Disruptor"
+	gun "Subspace Disruptor"
+	gun "Subspace Disruptor"	
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
+		
+ship "Iltan Gunboat" "Iltan Gunboat (Patrol)"
+	add attributes
+		"self destruct" 1
+	outfits
+		"Subspace Cannon" 2
+		"Subspace Cannon Turret" 3
+		"XellaCom Communications Node" 1
+		
+	gun "Subspace Cannon"
+	gun "Subspace Cannon"
+	turret "Subspace Cannon Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Cannon Turret"
