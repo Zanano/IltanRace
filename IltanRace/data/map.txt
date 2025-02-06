@@ -1,0 +1,317 @@
+wormhole "Painted ThresholdWH"
+#	"display name" "Painted Threshold" #0.10.11
+	mappable
+	link "Chrali' Hajha" "Iltan"
+	link "Iltan" "Chrali' Hajha"
+
+##############################
+
+
+galaxy "label Iltan Space"
+	pos -7000 -3800
+	sprite label/Iltan
+
+############################## ILTAN
+
+system Iltan
+	attributes wormhole
+	pos -7034.7329 -3886.265
+	government Iltan
+	habitable 3000
+	belt 3650
+	link Joss
+	link "Naga Irn"
+	trade Clothing 358
+	trade Electronics 883
+	trade Equipment 365
+	trade Food 557
+	trade "Heavy Metals" 983
+	trade Industrial 627
+	trade "Luxury Goods" 1510
+	trade Medical 555
+	trade Metal 392
+	trade Plastic 521
+	fleet IltanHeavyPatrol 3600
+	fleet IltanMerchants 2800
+	fleet IltanPatrol 3000
+	fleet IltanSingleShips 2000
+	object
+		sprite star/neutron-core
+		distance 23.921956
+		period 5
+		object
+			sprite planet/dyson1
+			distance 300
+			offset -160
+		object
+			sprite planet/dyson1
+			distance 300
+			offset -120
+		object
+			sprite planet/dyson1
+			distance 300
+			offset -80
+		object
+			sprite planet/dyson1
+			distance 300
+			offset -40
+		object
+			sprite planet/dyson1
+			distance 300
+			offset 120
+		object
+			sprite planet/dyson1
+			distance 300
+			offset 160
+		object
+			sprite planet/dyson1
+			distance 300
+			offset 40
+		object
+			sprite planet/dyson1
+			distance 300
+			offset 80
+		object
+			sprite planet/dyson1
+			distance 300
+	object Iltan
+		sprite planet/cloud1-b
+		distance 3500
+		period 400
+		object
+			sprite planet/rock3
+			distance 300
+			period 30
+			offset 3
+	object
+		sprite planet/rock9
+		distance 1901.5559
+		period 380
+		object "Chayi Maintenance Station"
+			sprite planet/station4b
+			distance 300
+			period 35
+			offset 50
+	object
+		sprite planet/gas8
+		distance 7500
+		period 450
+	object "Painted Threshold"
+		sprite planet/doorway200
+		distance 9864.0066
+		offset -50
+		object
+			sprite planet/station7
+			distance 500
+			offset 125
+
+planet "Chayi Maintenance Station"
+	government Iltan
+	"required reputation" 2
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	tribute 3000
+		fleet IltanWarFleet 2
+		fleet IltanPatrol 5
+
+planet "Painted Threshold"
+#	"display name" "Chrali' Hajha" #0.10.11 only
+	attributes "inaccessible" "requires: inaccessible"
+	government Iltan
+	wormhole "Painted ThresholdWH"
+	"required reputation" 1
+
+planet Iltan
+	description "Iltan, the homeworld of it's namesake species. Iltan is a large world that is covered completely with towering cities. Anti-grav technology is a specialty of Iltans, and they use it extensively in their mile high skyscrapers."
+	government Iltan
+	shipyard "Iltan Basics"
+	shipyard "Iltan MilTech"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	outfitter "Iltan MilTech"
+	tribute 35000
+		fleet IltanWarFleet 3
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 4
+
+############################## CHRALI' HAJHA
+
+system "Chrali' Hajha"
+	attributes wormhole
+	pos -1208.2051 -877.37607
+	government Iltan
+	habitable 6480.2
+	link "Deep Space 19M5"
+	fleet IltanHeavyPatrol 4000
+	fleet IltanSingleShips 2100
+	object "Kalla' Eq' Station"
+		sprite planet/stationh-ancient1
+		
+	object "Painted Threshold"
+		sprite planet/doorway200
+		distance 2803.9878
+		offset -25
+
+planet "Painted Threshold"
+	#"display name" "Chrali' Hajha" #0.10.11 only
+	attributes "inaccessible" "requires: inaccessible"
+	government Iltan
+	wormhole "Painted ThresholdWH"
+	"required reputation" 1
+			
+planet "Kalla' Eq' Station"
+	government Iltan
+	"required reputation" 2
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	tribute 4000
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 3
+
+############################## JOSS
+
+
+system Joss
+	pos -6999.0406 -3949.6496
+	habitable 361.25
+	link Iltan
+	asteroids "small rock" 1 15
+	minables iron 20 0.5
+	minables silver 12 6
+	fleet IltanMiners 3000
+	fleet IltanPatrol 2500
+	fleet IltanMerchants 2499
+	fleet IltanSingleShips 1900
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/lava1-b
+		distance 221.89729
+		period 266.85893
+	object
+		sprite planet/rock4-b
+		distance 592.09915
+		period 1268.4712
+	object
+		sprite planet/gas12
+		distance 1677.891
+		period 2362.807
+	object
+		sprite planet/gas7
+		distance 3525
+		period 9848.719
+		object
+			sprite planet/miranda
+			distance 263
+			period 201.76482
+		object
+			sprite "planet/yniu ena"
+			distance 411
+			period 314.96577
+	object
+		sprite planet/gas14-b
+		distance 7711
+		period 31864.501
+	object
+		sprite planet/gas5-b
+		distance 11445
+		period 57618.873
+		object
+			sprite planet/dust5-b
+			distance 285
+			period 125.91716
+
+############################## YEG ASTEROID FIELD
+
+system "Yeg Asteroid Field"
+	pos -7050 -3949.6496
+	habitable 1
+	link "Naga Irn"
+	asteroids "small rock" 1 15
+	minables uranium 8 0.5
+	minables silicon 8 20
+	minables largemetal1 20 4
+	minables mediummetal1 12 6
+	minables silver 12 6
+	fleet IltanMiners 1900
+	fleet IltanPatrol 1900
+	fleet IltanMerchants 3200
+	fleet IltanSingleShips 4000
+
+
+############################## NAGA IRN 
+
+system "Naga Irn"
+	pos -7124.359 -3901.594
+	habitable 2343.2
+	link Iltan
+	asteroids "small rock" 25 .1
+	minables "mediummetal1" 10 3
+	fleet IltanMiners 2200
+	fleet IltanPatrol 2000
+	fleet IltanSingleShips 3000
+	object
+		sprite star/o3
+		period 10
+	object
+		sprite planet/tethys
+		distance 441.388
+		period 106.81017
+	object
+		sprite planet/rock15
+		distance 995.9314
+		period 230.53004
+	object
+		sprite planet/gas3-c
+		distance 8031.8703
+		period 854.48136
+		object
+			sprite planet/station7
+			distance 720
+			period 90
+			offset 15
+	object Naga
+		sprite planet/aera
+		distance 2346.0444
+		period 1770.4593
+		object
+			sprite planet/oberon
+			distance 298
+			period 316.82449
+		object
+			sprite planet/oberon-b
+			distance 384
+			period 463.43751
+	object
+		sprite planet/redias
+		distance 4771.721
+		period 2735.0451
+		object "Igna Gas Processing Station"
+			sprite planet/station1
+			distance 406.5
+			period 101.0008
+
+
+
+planet "Igna Gas Processing Station"
+	government Iltan
+	"required reputation" 2
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	tribute 6500
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 3	
+	
+planet Naga
+	government Iltan
+	"required reputation" 2
+	shipyard "Iltan Basics"
+	shipyard "Iltan MilTech"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	outfitter "Iltan MilTech"
+	tribute 10750
+		fleet IltanWarFleet 1
+		fleet IltanHeavyPatrol 3
+		fleet IltanPatrol 2
