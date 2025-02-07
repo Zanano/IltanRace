@@ -43,7 +43,10 @@ ship Tetryon "Tetryon (Warfleet)"
 	outfits
 		"Denari SS Shield Generator" 6
 		"Oro-Plus Power Bank" 2
-		"Subspace Cannon Turret" 8
+		"Subspace Cannon Turret" 4
+		"Subspace Cannon" 4
+		"Subspace Disruptor"
+		"Subspace Disruptor Turret" 4
 		"XellaCom Communications Node" 4
 		"Iltan 'Cahj Ki' Bot" 15
 		"Iltan Astromech" 30
