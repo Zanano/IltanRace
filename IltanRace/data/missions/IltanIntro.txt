@@ -1,7 +1,13 @@
 event "AllowPaintedThresholdAccess"
-	planet "Painted Threshold"
-		remove attributes "requires: inaccessible"
+	"reputation: Iltan" += 1 #Ignore for wormhole purposes
+	"reputation: PaintedThreshold1" = 1 #allows wormhole use until Reqs can update
 
+event "UpdatePTReqs"
+	planet "Painted Threshold To Chrali' Hajha" # CH wormhole end
+		"required reputation" 0
+		
+	planet "Painted Threshold To Iltan" #Iltan wormhole end
+		"required reputation" 0
 
 mission "On Enter Chrali' Hajha"
 	invisible
@@ -10,7 +16,7 @@ mission "On Enter Chrali' Hajha"
 		never
 	on enter "Chrali' Hajha"
 		conversation
-			`You drop into an what you assumed was an empty region of space. Strangely, there is a single space station, and what looks like a massive floating doorway nearby. After a moment of being in the system, a reddish skinned humanoid appears on your viewscreen.`
+			`You drop into an what you assumed was an empty region of space. Strangely, there is a single space station, and what looks like a massive floating doorway nearby. The station hails you and requests visual. After a moment, a reddish skinned humanoid appears on your viewscreen.`
 
 			branch "goodrep"
 				"reputation: Iltan" > 1
@@ -19,11 +25,15 @@ mission "On Enter Chrali' Hajha"
 				"reputation: Iltan" < 0
 			action
 				"reputation: Iltan" = 1
+				"reputation: PaintedThreshold1" = 1 #allows wormhole use until Reqs can update
+				event "UpdatePTReqs"
 			`	 "Greetings. Thank you for your patience, Captain. Not many humans come through here, hence the delay. I am granting you permission to use the Painted Threshold. Please visit the Foreign Ambassador's Office on Iltan. Once there, you may register yourself as a Captain and gain basic access to Iltan goods and services." `
 				decline
 			label "goodrep"
 			action
-				event "AllowPaintedThresholdAccess"
+				"reputation: Iltan" += 1 #Ignore for wormhole purposes
+				"reputation: PaintedThreshold1" = 1 #allows wormhole use until Reqs can update
+				event "UpdatePTReqs" 1
 			`	 "Challa ki', Captain. We've been hearing encouraging rumors about you. I am granting you permission to use the Painted Threshold. Please visit the Foreign Ambassador's Office on Iltan. Once there, you may register yourself as a Captain and gain basic access to Iltan goods and services."`
 				decline			
 			label "badrep"
@@ -49,7 +59,7 @@ mission "IltanRepImproved" #If the player was initially disallowed wormhole acce
 
 mission "Meeting the Ambassador"
 	landing
-	source "Painted Threshold"
+	source "Painted Threshold To Iltan"
 	destination	"Iltan"
 	name "Register at the Iltan Foreign Embassy"
 	description "You have been instructed to the Iltan Foreign embassy and register yourself as a captain within their space."

@@ -116,8 +116,7 @@ planet "Chayi Maintenance Station"
 
 planet "Painted Threshold To Chrali' Hajha"
 #	"display name" "Chrali' Hajha" #0.10.11 only
-#	attributes "inaccessible" "requires: inaccessible"
-	government Iltan
+	government "PaintedThreshold1"
 	wormhole "Painted Threshold"
 	"required reputation" 1
 
@@ -154,8 +153,7 @@ system "Chrali' Hajha"
 
 planet "Painted Threshold To Iltan"
 	#"display name" "Chrali' Hajha" #0.10.11 only
-#	attributes "inaccessible" "requires: inaccessible"
-	government Iltan
+	government PaintedThreshold1
 	wormhole "Painted Threshold"
 	"required reputation" 1
 			
