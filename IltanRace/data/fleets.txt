@@ -17,6 +17,9 @@ fleet "IltanPatrol"
 		"Iltan Gunboat (Patrol)" 1
 	variant 12
 		"Iltan Gunboat (Patrol)" 3
+	variant 25
+		"Iltan Gunboat (Patrol)
+		"Iltan Interceptor Variant" 3
 		
 fleet "IltanHeavyPatrol"
 	government "Iltan"
@@ -32,7 +35,7 @@ fleet "IltanHeavyPatrol"
 		"Iltan Gunboat (Patrol)" 3
 	variant 5
 		"Orbi' Tah (Patrol)" 2
-		#unnamed smaller craft
+		"Iltan Interceptor Variant" 2
 	variant 5
 		"Aggrero (Patrol)" 2
 		"Orbi' Tah (Patrol)" 2
@@ -48,6 +51,9 @@ fleet "IltanWarFleet"
 	variant 5
 		"Tetryon (Warfleet)" 1
 		"Iltan Gunboat (Patrol)" 2
+	variant 8
+		"Iltan Gunboat (Patrol)" 3
+		"Iltan Interceptor Variant" 5
 
 fleet "IltanMerchants"
 	government "Iltan"
@@ -56,13 +62,16 @@ fleet "IltanMerchants"
 		confusion 40
 	variant 10
 		"Iltan Small Freighter"
+	variant 10
+		"Iltan Interceptor Variant" 2
+		"Iltan Small Freighter" 2
 	variant 15
 		"Iltan Small Freighter" 3
 	variant 10
 		"Iltan Small Freighter" 2
 		"Iltan Gunboat (Patrol)"
 	variant 10
-		"Iltan Small Freighter" 
+		"Iltan Small Freighter"  2
 		"Iltan Gunboat (Patrol)"	
 	variant 10
 		#medium freighter + 1 small escort

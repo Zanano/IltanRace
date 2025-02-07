@@ -2,9 +2,9 @@ shipyard "Iltan Anyone"
 	#CivShuttle WIP
 shipyard "Iltan Basics"
 	#CivTransport WIP
+	"Iltan Interceptor"
 	"Iltan Small Freighter"
 shipyard "Iltan MilTech"
-	#Interceptor
 	"Iltan Gunboat"
 	"Aggrero"
 	"Orbi' Tah"
@@ -17,6 +17,7 @@ shipyard "cheatZan"
 	Tetryon
 	"Iltan Gunboat"
 	"Iltan Small Freighter"
+	"Iltan Interceptor"
 
 shipyard IltanReward
 	"Tetryon X" #Extremely unbalanced
@@ -35,9 +36,11 @@ outfitter "Iltan Basics"
 	"Oro Mini Power Bank"
 	"Oro-Plus Power Bank"
 	"Gehru Power System"
+	"Ket La' Igna Power System"
 	"Annu'Ka Su Directional Thrusters"
 	"Annu'Ka Su Reverse Thrusters"
 	"Annu'Ka Su Reaction Thrusters"
+	"Haltek Propulsion System"
 	"Iltan Generic Fuel Node"
 	"Iltan Transport Drive"
 	"Iltan Technician Deck"

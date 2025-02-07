@@ -1,5 +1,5 @@
 #
-# LICENSES
+###### LICENSES
 #
 outfit "Iltan Anyone License"
 	category licenses
@@ -20,7 +20,7 @@ outfit "Zanano's Merit Award"
 
 	
 #
-# COOLING
+###### COOLING
 #
 
 outfit "Iltan Small Cooling System"
@@ -74,7 +74,7 @@ outfit "Iltan Subspace Heat Shunt"
 	description "Utilizes subspace as a receptacle to shunt heat into. Only used when absolutely necessary, as it can make local subspace distorted with extreme use."
 	
 #
-# SHIELDS
+###### SHIELDS
 #
 outfit "Denari SS Shield Generator"
 	category "Systems"
@@ -105,12 +105,12 @@ outfit "Denari A Shield Generator"
 	"energy consumption" 3
 	"outfit space" -25
 	"shield generation" 5
-	"shield heat" -10
+	"shield heat" 10
 	shields 4000
-	description "The Iltan's basic shield generator."
+	description "The Iltan's basic shield generator. Still powerful."
 
 #
-# POWER
+###### POWER
 #
 
 
@@ -183,8 +183,22 @@ outfit "Gehru Power System"
 	"outfit space" -100
 	description "Gehru, meaning King or Emperor, is a fitting name for this insanely powerful ship generator."
 
+outfit "Ket La' Igna Power System"
+	licenses
+		"Iltan Basics"
+	category "Power"
+	cost 15000000
+	mass 100
+	#thumbnail outfit/unknown
+	thumbnail "outfit/InDeve" #TEMP
+	licenses "Iltan MilTech"
+	"energy generation" 175
+	"heat generation" 30
+	"outfit space" -50
+	description "The Ket La' Igna Power System is the basic Iltan generator. Great for shuttles, smaller ships, fighters, interceptors. Still very powerful."
+
 #
-# ENGINES
+###### ENGINES
 #
 
 outfit "Annu'Ka Su Directional Thrusters"
@@ -246,7 +260,29 @@ outfit "Annu'Ka Su Reaction Thrusters"
 		"frame rate" 17
 	"flare sound" "ion huge"
 	description "These accessory thrusters are designed to work with the Annu'Ka Su main and reverse thrusters when additional directional thrust is needed."
-	
+
+outfit "Haltek Propulsion System"
+	plural "Haltek Propulsion Systems"
+	licenses
+		"Iltan Basics"
+	category "Engines"
+	"cost" 500000
+#	thumbnail "outfit/SmallThrusters"
+	thumbnail "outfit/InDeve" #TEMP
+	"mass" 40
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 80
+	"thrusting energy" 7
+	"thrusting heat" 7
+	"turn" 600
+	"turning energy" 7
+	"turning heat" 6
+	"flare sprite" "effect/pug flare/tiny"
+		"frame rate" 17
+	"flare sound" "ion huge"
+	description "Forward and steering system used by smaller Iltan ships."
+
 #
 # TO DO: Afterburner???
 #
@@ -349,7 +385,9 @@ outfit "Iltan Astromech"
 	"energy consumption" -5
 	"heat generation" -5
 	"hull repair rate" 5
+	"required crew" -1
 	description "Iltan astromechs are extremely effective. They are capable of repairing, maintaining, and fine tuning even the most complex of technology. This leads to the overall efficiency of ships they are stationed on improving dramatically."
+	description "They are so effective, they can often replace humanoid crew for tasks like gunning."
 
 
 outfit "Iltan Armory"

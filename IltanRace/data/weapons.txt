@@ -131,9 +131,9 @@ outfit "Subspace Disruptor Turret"
 		"hit force" 0
 		"prospecting" 3
 		
-	description "A fearsome weapon that distorts subspace in a line, causing havoc on anything with a material form. As such, it shreds hull, but does nothing against shields."
+	description "A fearsome weapon that causes fractures of subspace to bleed into anything in it's path, causing havoc on anything with a material form. As such, it shreds hull, but does nothing against shields."
 	description "Coincidentally great for mining due to the fact it breaks materials up into particulate sizes."
 
 #
-# TO-DO: Submunition explosive, subspace torpedo, gravitic mining laser
+# TO-DO: Submunition explosive, subspace torpedo, gravitic mining laser, check if submunitions can gravity targets towards their origin?
 #

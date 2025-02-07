@@ -1,3 +1,14 @@
+ship "Iltan Interceptor" "Iltan Interceptor Variant"
+	add attributes
+		#none
+	outfits
+		"XellaCom Communications Node" 1
+		"Iltan Astromech"
+		"Subspace Cannon" 2
+		"Iltan Generic Fuel Node" 1
+
+
+
 ship "Orbi' Tah" "Orbi' Tah (Patrol)"
 	add attributes
 		"self destruct" 1
@@ -69,8 +80,6 @@ ship Tetryon "Tetryon (Warfleet)"
 	turret "Subspace Disruptor Turret"
 		
 ship "Iltan Gunboat" "Iltan Gunboat (Patrol)"
-	add attributes
-		"self destruct" 1
 	outfits
 		"Subspace Cannon" 2
 		"Subspace Cannon Turret" 2

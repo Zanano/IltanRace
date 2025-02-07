@@ -1,4 +1,42 @@
-#Gunboats, fighters, and additional ships WIP
+
+####### SHIPS ######
+
+ship "Iltan Interceptor"
+	sprite "ship/IltanInterceptor"
+	thumbnail "thumbnails/IltanInterceptorThumb"
+		scale 1
+	attributes
+		category "Interceptor"
+		cost 950000
+		mass 550
+		licenses 
+			"Iltan Basics"
+		bunks 3
+		"cargo space" 5
+		drag 3
+		"engine capacity" 175
+		"fuel capacity" 200
+		"heat dissipation" 0.9
+		hull 8500
+		"outfit space" 400
+		"required crew" 1
+		shields 8000
+		"weapon capacity" 150
+		"bot capacity" 2
+		
+	outfits
+		"Haltek Propulsion System" 3
+		"Denari A Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro Mini Power Bank" 2
+		"Ket La' Igna Power System" 1
+		"Iltan Small Cooling System" 1
+		"Subspace Cannon" 1
+	
+	gun -15 -42
+	gun 15 -42
+	engine -8.5 41
+	engine 8.5 41
 
 ship "Iltan Small Freighter"
 	sprite "ship/IltanSmallFreighter"
