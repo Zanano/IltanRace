@@ -117,8 +117,8 @@ planet "Chayi Maintenance Station"
 			all
 		services
 			trading
-			job board
-			offers missions
+			"job board"
+			"offers missions"
 	tribute 3000
 		fleet IltanWarFleet 2
 		fleet IltanPatrol 5
@@ -145,10 +145,10 @@ planet Iltan
 			all
 		services
 			trading
-			job board
-			offers missions
+			"job board"
+			"offers missions"
 			bank
-			hire crew
+			"hire crew"
 	tribute 35000
 		fleet IltanWarFleet 3
 		fleet IltanHeavyPatrol 2
@@ -190,8 +190,8 @@ planet "Kalla' Eq' Station"
 			all
 		services
 			trading
-			job board
-			offers missions
+			"job board"
+			"offers missions"
 			
 	tribute 4000
 		fleet IltanHeavyPatrol 2
@@ -338,8 +338,8 @@ planet "Igna Gas Processing Station"
 			all
 		services
 			trading
-			job board
-			offers missions
+			"job board"
+			"offers missions"
 	tribute 6500
 		fleet IltanHeavyPatrol 2
 		fleet IltanPatrol 3	
@@ -359,10 +359,10 @@ planet Naga
 			all
 		services
 			trading
-			job board
-			offers missions
+			"job board"
+			"offers missions"
 			bank
-			hire crew
+			"hire crew"
 	tribute 10750
 		fleet IltanWarFleet 1
 		fleet IltanHeavyPatrol 3
