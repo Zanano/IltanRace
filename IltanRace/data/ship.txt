@@ -63,13 +63,6 @@ ship "Iltan Interceptor"
 		"bot capacity" 2
 		
 	outfits
-		"Haltek Propulsion System" 3
-		"Denari A Shield Generator" 1
-		"Iltan Transport Drive"
-		"Oro Mini Power Bank" 2
-		"Ket La' Igna Power System" 1
-		"Iltan Small Cooling System" 1
-		"Subspace Cannon" 1
 	
 	gun -15 -42
 	gun 15 -42
@@ -82,7 +75,7 @@ ship "Iltan Small Freighter"
 		scale 1
 	attributes
 		category "Light Freighter"
-		cost 1600000
+		cost 2100000
 		mass 550
 		licenses 
 			"Iltan Basics"
@@ -99,15 +92,7 @@ ship "Iltan Small Freighter"
 		"weapon capacity" 380
 		
 	outfits
-		"Denari A Shield Generator" 1
-		"Iltan Transport Drive"
-		"Oro A Power Bank"
-		"Annu'Ka Su Reverse Thrusters" 1
-		"Annu'Ka Su Directional Thrusters" 1
-		"Gehru Power System" 1
-		"Iltan Medium Cooling System" 1
-		"Iltan Small Cooling System" 1
-	
+
 	turret -25.5 -43.5
 	turret 25.5 -43.5
 	
@@ -119,14 +104,14 @@ ship "Iltan Gunboat"
 	thumbnail "thumbnails/IltanGunboatThumb"
 		scale 1
 	attributes
-		category "Light Warship"
+		category "Fast Warship"
 		cost 5600000
 		mass 550
 		licenses 
 			"Iltan MilTech"
 		bunks 12
 		"cargo space" 50
-		drag 7
+		drag 9
 		"engine capacity" 300
 		"fuel capacity" 800
 		"heat dissipation" 0.8
@@ -134,20 +119,10 @@ ship "Iltan Gunboat"
 		"outfit space" 1200
 		"required crew" 6
 		shields 20000
-		"weapon capacity" 320
+		"weapon capacity" 400
 		
 	outfits
-		"Denari SS Shield Generator" 1
-		"Iltan Transport Drive"
-		"Oro A Power Bank"
-		"Annu'Ka Su Reverse Thrusters" 1
-		"Annu'Ka Su Directional Thrusters" 1
-		"Annu'Ka Su Reaction Thrusters" 2
-		"Gehru Power System" 1
-		"Iltan Medium Cooling System" 1
-		"Iltan Small Cooling System" 1
-		"XellaCom Communications Node"
-		
+
 	engine -29 94
 	engine 29 94
 	
@@ -172,7 +147,7 @@ ship "Orbi' Tah"
 	thumbnail "ship/InDeve" #TEMP
 		scale 1
 	attributes
-		category "Fast Warship"
+		category "Medium Warship"
 		cost 105600000
 		mass 1550
 		licenses 
@@ -190,17 +165,6 @@ ship "Orbi' Tah"
 		"weapon capacity" 1000
 	
 	outfits
-		"Denari SS Shield Generator" 1
-		"Iltan Transport Drive"
-		"Oro A Power Bank" 2
-		"Annu'Ka Su Reverse Thrusters" 2
-		"Annu'Ka Su Directional Thrusters" 3
-		"Annu'Ka Su Reaction Thrusters" 2
-		"Gehru Power System" 1
-		"Iltan Armory"
-		"Iltan Technician Deck"
-		"XellaCom Communications Node"	
-		"Iltan Medium Cooling System" 3
 		
 	engine -200 94
 	engine 200 94
@@ -261,7 +225,7 @@ ship "Aggrero"
 	thumbnail "ship/InDeve" #TEMP
 		scale 1
 	attributes
-		category "Fast Warship"
+		category "Light Warship"
 		cost 870000000
 		mass 1100
 		licenses 
@@ -279,18 +243,7 @@ ship "Aggrero"
 		"weapon capacity" 1000
 		
 	outfits
-		"Denari SS Shield Generator" 1
-		"Iltan Transport Drive"
-		"Oro A Power Bank" 2
-		"Annu'Ka Su Reverse Thrusters" 2
-		"Annu'Ka Su Directional Thrusters" 4
-		"Annu'Ka Su Reaction Thrusters" 2
-		"Gehru Power System" 1
-		"Iltan Armory"
-		"Iltan Technician Deck"
-		"Iltan Medium Cooling System" 2
-		"XellaCom Communications Node"	
-		
+
 	engine -193.5 -34
 		angle -26
 	engine 193.5 -34
@@ -547,9 +500,7 @@ ship "Tetryon X"
 	bay "Fast Warship" 0 -122
 	bay "Fast Warship" 0 -122
 	bay "Fast Warship" 0 -122
-	bay "Fast Warship" 0 -122
-	bay "Fast Warship" 0 -122
 	
-	description "Originally the Flagship of a renowned Captain. The Tetryon X was custom built by the Iltan species as a gift for an act of extreme heroism. Featuring an advanced AI capable of replacing an otherwise massive crew, increased overall capabilities, and many additional gun and turret slots. This behemoth is a monster to behold."
-	description "Carries an even larger wing of drone fighters than the Tetryon, and can even deploy six fast warships."
+	description "Originally the Flagship of a renowned, heroic Captain. The Tetryon X was custom built by the Iltan species as a gift for an act of extreme heroism. Featuring an advanced AI capable of replacing an otherwise massive crew, increased overall capabilities, and many additional gun and turret slots. This behemoth is a monster to behold."
+	description "Carries an even larger wing of drone fighters than the Tetryon, and can even deploy four fast warships."
 

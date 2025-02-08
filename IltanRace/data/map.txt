@@ -100,13 +100,13 @@ system Iltan
 		sprite planet/doorway200
 		distance 9864.0066
 		offset -50
-		object
+		object "Threshold Guard Station"
 			sprite planet/station7
 			distance 500
 			offset 125
 
 planet "Chayi Maintenance Station"
-	attributes factory shipping
+	attributes factory
 	government Iltan
 	"required reputation" 2
 	shipyard "Iltan Anyone"
@@ -123,11 +123,34 @@ planet "Chayi Maintenance Station"
 		fleet IltanWarFleet 2
 		fleet IltanPatrol 5
 
+planet "Threshold Guard Station"
+	attributes military
+	government Iltan
+	"required reputation" 2
+	shipyard "Iltan Anyone"
+	shipyard "Iltan MilTech"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	outfitter "Iltan MilTech"
+	spaceport `Security is everywhere in the guard station's landing hangar.`
+	port
+		recharges
+			all
+		services
+			trading
+			"job board"
+			"offers missions"
+	tribute 3000
+		fleet IltanWarFleet 5
+		fleet IltanPatrol 8
+
+
 planet "Painted Threshold"
 #	"display name" "Chrali' Hajha" #0.10.11 only
 	government "PaintedThreshold1"
 	wormhole "Painted Threshold"
 	"required reputation" 1
+	spaceport ``
 
 planet Iltan
 	attributes wealthy shipping urban rich tourism
@@ -140,6 +163,7 @@ planet Iltan
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
+	spaceport `The spaceport is a massive sprawling complex, held aloft by gravitic technology between two skyscrapers. You see three technicians scratching their head around a broken-down cargo drone.`
 	port
 		recharges
 			all
@@ -177,14 +201,16 @@ planet "Painted Threshold"
 	government PaintedThreshold1
 	wormhole "Painted Threshold"
 	"required reputation" 1
+	spaceport ``
 			
 planet "Kalla' Eq' Station"
 	attributes "station" "guardpost"
 	government Iltan
-	"required reputation" 2
+	"required reputation" 1
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	spaceport `The small hangar is mostly empty save for a couple of patrol ships and cargo pallets.`
 	port
 		recharges
 			all
@@ -219,7 +245,7 @@ system Joss
 		sprite planet/lava1-b
 		distance 221.89729
 		period 266.85893
-	object
+	object "Kal"
 		sprite planet/rock4-b
 		distance 592.09915
 		period 1268.4712
@@ -235,7 +261,7 @@ system Joss
 			sprite planet/miranda
 			distance 263
 			period 201.76482
-		object
+		object "Ana'i'"
 			sprite "planet/yniu ena"
 			distance 411
 			period 314.96577
@@ -251,7 +277,50 @@ system Joss
 			sprite planet/dust5-b
 			distance 285
 			period 125.91716
-
+	
+planet "Ana'i'"
+	attributes research education
+	government Iltan
+	"required reputation" 2
+	shipyard "Iltan Anyone"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	spaceport ``
+	port
+		recharges
+			all
+		services
+			trading
+			"job board"
+			"offers missions"
+			"hire crew"
+			bank
+	tribute 6500
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 3		
+		
+planet "Kal"
+	description `Kal is a mining focused planet, with many resources being processed directly on the planet in many factories.`
+	attributes mining factory
+	government Iltan
+	"required reputation" 2
+	shipyard "Iltan Anyone"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	spaceport ``
+	port
+		recharges
+			all
+		services
+			trading
+			"job board"
+			"offers missions"
+			"hire crew"
+			bank
+	tribute 6500
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 3	
+		
 ############################## YEG ASTEROID FIELD
 
 system "Yeg Asteroid Field"
@@ -324,15 +393,15 @@ system "Naga Irn"
 			distance 406.5
 			period 101.0008
 
-
-
 planet "Igna Gas Processing Station"
+	description `This processing station supports a fleet of utlity ships that siphon off gasses from the gas giant it orbits. These gasses are packages or processed for shipping to a variety of locations.`
 	attributes factory shipping
 	government Iltan
 	"required reputation" 2
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	spaceport `The processing station boasts an impressively sized hangar, filled with a variety of utility and freight craft. A cleaning drone is struggling with a particularly scorched personal transport.`
 	port
 		recharges
 			all
@@ -345,7 +414,8 @@ planet "Igna Gas Processing Station"
 		fleet IltanPatrol 3	
 	
 planet Naga
-	attributes mining factory urban shipping tourism
+	description `Naga is a beautiful planet, with a large number of communes that focus on handmade goods and tourism.
+	attributes factory urban shipping tourism
 	government Iltan
 	"required reputation" 2
 	shipyard "Iltan Anyone"
@@ -354,6 +424,7 @@ planet Naga
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
+	spaceport `The spaceport you have landed at seems focused on comfort and ease, geared for tourists.`
 	port
 		recharges
 			all

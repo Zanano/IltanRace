@@ -1,5 +1,5 @@
-mission "IltanCargo1"
-	name "Delivery to <planet>"
+mission "IltanCargoSupplies"
+	name "Supplies Delivery to <planet>"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
@@ -7,6 +7,7 @@ mission "IltanCargo1"
 	source
 		government "Iltan"
 	destination
+		distance 1 10
 		government "Iltan"
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -15,22 +16,137 @@ mission "IltanCargo1"
 		dialog phrase "generic cargo delivery payment"
 		
 		
-mission "IltanCargo2"
-	name "Delivery to <planet>"
+mission "IltanCargoFood1"
+	name "Food Delivery to <planet>"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo IltanFood 5 2 .1
 	source
 		government "Iltan"
+		has attributes "shipping"
 	destination
+		distance 1 10
 		government "Iltan"
+		not attributes "farming"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
 		payment
 		dialog phrase "generic cargo delivery payment"
 		
+mission "IltanCargoFood2"
+	name "Food Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanSupplies 5 2 .1
+	source
+		government "Iltan"
+		has attributes "shipping"
+	destination
+		distance 1 10
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"	
+		
+mission "IltanCargoIndustrialA"
+	name "Industrial Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanIndustrialSupplies 10 2 .1
+	source
+		government "Iltan"
+		has attributes "shipping"
+	destination
+		has attributes "Factory"
+		distance 1 10
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+mission "IltanCargoIndustrialB"
+	name "Industrial Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanIndustrialSupplies 10 2 .1
+	source
+		government "Iltan"
+		has attributes "shipping"
+	destination
+		distance 1 10
+		has attributes "factory"
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"	
+		
+mission "IltanCargoGoods1"
+	name "Cargo Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanGoods 5 2 .1
+	source
+		government "Iltan"
+	destination
+		distance 1 10
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"		
+
+mission "IltanCargoMedical1"
+	name "Medical Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanMedicine 5 2 .1
+	source
+		government "Iltan"
+		has attributes "shipping"
+	destination
+		distance 1 10
+		has attributes "medical"
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+mission "IltanCargoMilitary1"
+	name "Military Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo IltanMilitarySupplies 10 2 .1
+	source
+		government "Iltan"
+	to accept
+		has "licenses: IltanMilTech"
+	destination
+		attributes "military"
+		distance 1 10
+		government "Iltan"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "generic cargo delivery payment"
 		
 mission "IltanPassengers1"
 	name "Passenger transport to <planet>"
@@ -41,7 +157,7 @@ mission "IltanPassengers1"
 	source
 		government "Iltan"
 	destination
-		distance 2 10
+		distance 1 10
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -62,7 +178,7 @@ mission "IltanPassengers2"
 	source
 		government "Iltan"
 	destination
-		distance 2 10
+		distance 1 10
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -84,6 +200,7 @@ mission "IltanFamily1"
 		government "Iltan"
 	destination
 		government "Iltan"
+		distance 1 10
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -104,7 +221,7 @@ mission "IltanMinerTransport1"
 		government "Iltan"
 	destination
 		attributes "mining"
-		distance 3 12
+		distance 1 12
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -126,7 +243,7 @@ mission "IltanWorkersTransport1"
 		government "Iltan"
 	destination
 		attributes "factory"
-		distance 3 12
+		distance 1 12
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -134,6 +251,27 @@ mission "IltanWorkersTransport1"
 		payment
 		payment 2000
 		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."
+		
+mission "IltanWorkersTransport2"
+	name "Transport workers to <planet>"
+	job
+	repeat
+	description "This group of <bunks> factory workers is shipping out to work on <destination>, and their company will pay you <payment> to take them there."
+	passengers 2 2 .8
+	to offer
+		random < 80
+	source
+		government "Iltan"
+	destination
+		attributes "mining"
+		distance 1 12
+		government "Iltan"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 2000
+		dialog "You wish the workers the best of luck on <planet>, and collect your payment of <payment>."	
 		
 mission "IltanTourists"
 	name "Bring a tourist to <planet>"
@@ -147,7 +285,7 @@ mission "IltanTourists"
 		government "Iltan"
 	destination
 		attributes "tourism"
-		distance 6 35
+		distance 1 35
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -157,20 +295,21 @@ mission "IltanTourists"
 		dialog phrase "generic passenger dropoff payment"
 		
 mission "IltanOfficerTransport"
-	name "Bring a tourist to <planet>"
+	name "Transport a Military Officer to <planet>"
 	job
 	repeat
 	description "This Iltan Military Officer requires transportation to  <destination>, and the Iltan Military will pay you <payment>."
 	passengers 1
 	to offer
 		random < 20
-		"licenses: IltanMilTech"
 	source
 		government "Iltan"
 	destination
-		attributes "military
-		distance 6 35
+		attributes "military"
+		distance 1 35
 		government "Iltan"
+	to accept
+		has "licenses: IltanMilTech"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -190,7 +329,7 @@ mission "IltanTourists2"
 		government "Iltan"
 	destination
 		attributes "tourism"
-		distance 2 25
+		distance 1 25
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"
@@ -215,7 +354,7 @@ mission "IltanWealthyTourists"
 		government "Iltan"
 	destination
 		attributes "tourism"
-		distance 4 30
+		distance 1 30
 		government "Iltan"
 	on visit
 		dialog phrase "generic passenger on visit"

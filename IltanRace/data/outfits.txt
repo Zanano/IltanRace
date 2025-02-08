@@ -40,7 +40,7 @@ outfit "Iltan Medium Cooling System"
 	licenses
 		"Iltan Basics"
 	category "Systems"
-	cost 492000
+	cost 150000
 	mass 12
 	#thumbnail "outfit/mediumcooling"
 	thumbnail "outfit/InDeve" #TEMP
@@ -64,7 +64,7 @@ outfit "Iltan Heat Buffer"
 	
 outfit "Iltan Subspace Heat Shunt"
 	category "Systems"
-	cost 10000000
+	cost 1000000
 	mass 15
 	thumbnail "outfit/InDeve" #TEMP
 	licenses
@@ -78,7 +78,7 @@ outfit "Iltan Subspace Heat Shunt"
 #
 outfit "Denari SS Shield Generator"
 	category "Systems"
-	cost 7000000
+	cost 1000000
 	mass 100
 	#thumbnail "outfit/DenariSS"
 	thumbnail "outfit/InDeve" #TEMP
@@ -98,7 +98,7 @@ outfit "Denari A Shield Generator"
 	licenses
 		"Iltan Basics"
 	category "Systems"
-	cost 600000
+	cost 60000
 	mass 10
 	#thumbnail "outfit/DenariA"
 	thumbnail "outfit/InDeve" #TEMP
