@@ -78,7 +78,7 @@ system Iltan
 		sprite planet/cloud1-b
 		distance 3500
 		period 400
-		object
+		object "Illas"
 			sprite planet/rock3
 			distance 300
 			period 30
@@ -106,6 +106,7 @@ system Iltan
 			offset 125
 
 planet "Chayi Maintenance Station"
+	landscape "land/station49"
 	attributes factory
 	government Iltan
 	"required reputation" 2
@@ -124,6 +125,7 @@ planet "Chayi Maintenance Station"
 		fleet IltanPatrol 5
 
 planet "Threshold Guard Station"
+	landscape "land/station9"
 	attributes military
 	government Iltan
 	"required reputation" 2
@@ -144,7 +146,32 @@ planet "Threshold Guard Station"
 		fleet IltanWarFleet 5
 		fleet IltanPatrol 8
 
-
+planet "Illas"
+	attributes shipping tourism research education
+	description `Illas is Iltan's moon. Being so close to Iltan, it shares much of its prosperity. Illas has an abundance of facilities centered on education and research.`
+	government Iltan
+	landscape "land/station48"
+	shipyard "Iltan Anyone"	
+	shipyard "Iltan Basics"
+	shipyard "Iltan MilTech"
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	outfitter "Iltan MilTech"
+	spaceport `The spaceport is quiet, with the occasional personal transport or light freighter moving in or out. A group of scientists in lab coats are gathered at a nearby diner, eating a meal.`
+	port
+		recharges
+			all
+		services
+			trading
+			"job board"
+			"offers missions"
+			bank
+			"hire crew"
+	tribute 35000
+		fleet IltanWarFleet 3
+		fleet IltanHeavyPatrol 2
+		fleet IltanPatrol 4
+		
 planet "Painted Threshold"
 #	"display name" "Chrali' Hajha" #0.10.11 only
 	government "PaintedThreshold1"
@@ -154,7 +181,7 @@ planet "Painted Threshold"
 
 planet Iltan
 	attributes wealthy shipping urban rich tourism
-	description "Iltan, the homeworld of it's namesake species. Iltan is a large world that is covered completely with towering cities. Anti-grav technology is a specialty of Iltans, and they use it extensively in their mile high skyscrapers."
+	description `Iltan, the homeworld of it's namesake species. Iltan is a large world that is covered completely with towering cities. Anti-grav technology is a specialty of Iltans, and they use it extensively in their mile high skyscrapers.`
 	government Iltan
 	landscape "land/IltanLandscape"
 	shipyard "Iltan Anyone"	
@@ -204,6 +231,7 @@ planet "Painted Threshold"
 	spaceport ``
 			
 planet "Kalla' Eq' Station"
+	landscape "land/station32"
 	attributes "station" "guardpost"
 	government Iltan
 	"required reputation" 1
@@ -227,7 +255,7 @@ planet "Kalla' Eq' Station"
 
 
 system Joss
-	attributes mining
+	attributes mining research education
 	pos -6999.0406 -3949.6496
 	habitable 361.25
 	link Iltan
@@ -262,7 +290,7 @@ system Joss
 			distance 263
 			period 201.76482
 		object "Ana'i'"
-			sprite "planet/yniu ena"
+			sprite "planet/forest0"
 			distance 411
 			period 314.96577
 	object
@@ -279,6 +307,7 @@ system Joss
 			period 125.91716
 	
 planet "Ana'i'"
+	landscape "land/CozyInterior"
 	attributes research education
 	government Iltan
 	"required reputation" 2
@@ -301,6 +330,7 @@ planet "Ana'i'"
 		
 planet "Kal"
 	description `Kal is a mining focused planet, with many resources being processed directly on the planet in many factories.`
+	landscape "land/MiningMachine"
 	attributes mining factory
 	government Iltan
 	"required reputation" 2
@@ -394,6 +424,7 @@ system "Naga Irn"
 			period 101.0008
 
 planet "Igna Gas Processing Station"
+	landscape "land/station50"
 	description `This processing station supports a fleet of utlity ships that siphon off gasses from the gas giant it orbits. These gasses are packages or processed for shipping to a variety of locations.`
 	attributes factory shipping
 	government Iltan
@@ -415,6 +446,7 @@ planet "Igna Gas Processing Station"
 	
 planet Naga
 	description `Naga is a beautiful planet, with a large number of communes that focus on handmade goods and tourism.
+	landscape "land/CommuneLandscape"
 	attributes factory urban shipping tourism
 	government Iltan
 	"required reputation" 2
