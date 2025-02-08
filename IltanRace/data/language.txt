@@ -49,6 +49,19 @@ phrase IltanFirstNames
 		"Jem" #jehm
 		"Elli'" #elly
 		"Jahn" #jon
+		"Kli'" #klee
+		"Keelna'" #keel nah or keel nuh regionally
+		"Kini'"
+		"Apa'"
+		"Oggi'"
+		"Igna"
+		"Annia" #ah nee ah or ah nee uh
+		"Olli" #ollee
+		"Klina" #klee nah or klee nuh
+		"Uy" #oo ee 
+		"Yuwa'" #yoo wah or yoo wuh
+		
+		
 
 phrase IltanSurnames
 	word
@@ -67,6 +80,12 @@ phrase IltanSurnames
 		"Jem" #jehm
 		"Lacri'" # lack ree
 		"Chayi" #chah yee
+		"Kli'" #klee
+		"Keelna'" #keel nah or keel nuh regionally
+		"Kini'"
+		"Kallana'"
+		"A'ni'"
+
 		
 phrase IltanFullNames
 		phrase
@@ -90,6 +109,10 @@ phrase IltanFullOrShipNames
 #
 ####  Translations to English ####
 #
+#
+#
+#
+# Goba' Keh - Be safe, good luck, similar meaning
 #
 # Egg - same as english, funny enough. 
 # Igna Suh, Igna Suh. - colloquial phrase equivalent to "It is what it is."

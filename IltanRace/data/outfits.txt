@@ -212,7 +212,7 @@ outfit "Annu'Ka Su Directional Thrusters"
 	"mass" 200
 	"outfit space" -100
 	"engine capacity" -100
-	"thrust" 200
+	"thrust" 100
 	"thrusting energy" 20
 	"thrusting heat" 25
 	"turn" 800
@@ -288,7 +288,7 @@ outfit "Haltek Propulsion System"
 #
 
 #
-# MISC SYSTEMS
+###### MISC SYSTEMS
 #
 
 outfit "Iltan Generic Fuel Node"
@@ -314,7 +314,7 @@ outfit "Iltan Transport Drive"
 #	thumbnail "outfit/IltanTransportDrive"
 	thumbnail "outfit/InDeve" #TEMP
 	"energy consumption" 10
-	"fuel generation" 8
+	"fuel generation" 1
 	hyperdrive 1
 	"hyperdrive fuel" 75
 	"jump drive" 1
@@ -323,7 +323,7 @@ outfit "Iltan Transport Drive"
 	"outfit space" -45
 	"quantum keystone" 1
 	"scram drive" 15
-	"jump range" 1000
+	"jump range" 100
 	description "An Iltan jump drive that manipulates subspace. Completely incomprehensible to human engineers and physicists. Enables hyperdrive and jumpdrive travel."
 	description "Slowly generates jump fuel by siphoning antimatter from a lower level of subspace and combining it with matter in the form of energy. We think."
 
@@ -385,9 +385,22 @@ outfit "Iltan Astromech"
 	"energy consumption" -5
 	"heat generation" -5
 	"hull repair rate" 5
+	description "Iltan astromechs are extremely effective. They are capable of repairing, maintaining, and fine tuning even the most complex of technology. This leads to the overall efficiency of ships they are stationed on improving dramatically."
+
+outfit "Iltan Astromech - Lagg Ta' Model"
+	licenses
+		"Iltan Basics"
+	cost 25000
+	category "Hand to Hand"
+#	thumbnail "outfit/unknown"
+	thumbnail "outfit/InDeve" #TEMP
+	"bot capacity" -1
+	"energy consumption" -3
+	"heat generation" -3
+	"hull repair rate" 3
 	"required crew" -1
 	description "Iltan astromechs are extremely effective. They are capable of repairing, maintaining, and fine tuning even the most complex of technology. This leads to the overall efficiency of ships they are stationed on improving dramatically."
-	description "They are so effective, they can often replace humanoid crew for tasks like gunning."
+	description "This model has had it's technical abilities reduced but it's general capabilities improved. It can replace a crew member in most cases."
 
 
 outfit "Iltan Armory"
@@ -418,3 +431,33 @@ outfit "Iltan 'Cahj Ki' Bot"
 	
 
 #Iltan shipboard weapons WIP (Grenades, guns, melee) 
+
+
+#
+###### ODDS AND ENDS
+#
+
+
+outfit "Ori' Cargo Pod"
+	licenses
+		"Iltan Basics"
+	cost 20000
+	category "Systems"
+#	thumbnail "outfit/OriCargoPod"
+	thumbnail "outfit/InDeve" #TEMP
+	"cargo space" 50
+	"Ori' Cargo Clamp" -1
+	description "A cargo pod designed to be used by the Ori' Personal Flitter."
+	
+outfit "Ori' Passenger Pod"
+	licenses
+		"Iltan Basics"
+	cost 90000
+	category "Systems"
+#	thumbnail "outfit/OriPassengerPod"
+	thumbnail "outfit/InDeve" #TEMP
+	bunks 10
+	"cargo space" 10
+	"Ori' Cargo Clamp" -1
+	description "A pod designed to be used by the Ori' Personal Flitter to assist with carrying passengers."	
+	

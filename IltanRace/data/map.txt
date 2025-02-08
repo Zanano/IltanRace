@@ -96,7 +96,7 @@ system Iltan
 		sprite planet/gas8
 		distance 7500
 		period 450
-	object "Painted Threshold To Chrali' Hajha"
+	object "Painted Threshold"
 		sprite planet/doorway200
 		distance 9864.0066
 		offset -50
@@ -106,23 +106,28 @@ system Iltan
 			offset 125
 
 planet "Chayi Maintenance Station"
+	attributes factory shipping
 	government Iltan
 	"required reputation" 2
+	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	tribute 3000
 		fleet IltanWarFleet 2
 		fleet IltanPatrol 5
 
-planet "Painted Threshold To Chrali' Hajha"
+planet "Painted Threshold"
 #	"display name" "Chrali' Hajha" #0.10.11 only
 	government "PaintedThreshold1"
 	wormhole "Painted Threshold"
 	"required reputation" 1
 
 planet Iltan
+	attributes wealthy shipping urban rich tourism
 	description "Iltan, the homeworld of it's namesake species. Iltan is a large world that is covered completely with towering cities. Anti-grav technology is a specialty of Iltans, and they use it extensively in their mile high skyscrapers."
 	government Iltan
+	landscape "land/IltanLandscape"
+	shipyard "Iltan Anyone"	
 	shipyard "Iltan Basics"
 	shipyard "Iltan MilTech"
 	outfitter "Iltan Anyone"
@@ -146,20 +151,22 @@ system "Chrali' Hajha"
 	object "Kalla' Eq' Station"
 		sprite planet/stationh-ancient1
 		
-	object "Painted Threshold To Iltan"
+	object "Painted Threshold"
 		sprite planet/doorway200
 		distance 2803.9878
 		offset -25
 
-planet "Painted Threshold To Iltan"
+planet "Painted Threshold"
 	#"display name" "Chrali' Hajha" #0.10.11 only
 	government PaintedThreshold1
 	wormhole "Painted Threshold"
 	"required reputation" 1
 			
 planet "Kalla' Eq' Station"
+	attributes "station" "guardpost"
 	government Iltan
 	"required reputation" 2
+	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	tribute 4000
@@ -170,6 +177,7 @@ planet "Kalla' Eq' Station"
 
 
 system Joss
+	attributes mining
 	pos -6999.0406 -3949.6496
 	habitable 361.25
 	link Iltan
@@ -223,6 +231,7 @@ system Joss
 ############################## YEG ASTEROID FIELD
 
 system "Yeg Asteroid Field"
+	attributes mining
 	pos -7050 -3949.6496
 	habitable 1
 	link "Naga Irn"
@@ -241,6 +250,7 @@ system "Yeg Asteroid Field"
 ############################## NAGA IRN 
 
 system "Naga Irn"
+	attributes mining
 	pos -7124.359 -3901.594
 	habitable 2343.2
 	link Iltan
@@ -293,8 +303,10 @@ system "Naga Irn"
 
 
 planet "Igna Gas Processing Station"
+	attributes factory shipping
 	government Iltan
 	"required reputation" 2
+	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	tribute 6500
@@ -302,8 +314,10 @@ planet "Igna Gas Processing Station"
 		fleet IltanPatrol 3	
 	
 planet Naga
+	attributes mining factory urban shipping tourism
 	government Iltan
 	"required reputation" 2
+	shipyard "Iltan Anyone"
 	shipyard "Iltan Basics"
 	shipyard "Iltan MilTech"
 	outfitter "Iltan Anyone"

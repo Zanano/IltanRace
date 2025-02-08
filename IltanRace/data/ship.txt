@@ -1,6 +1,44 @@
 
 ####### SHIPS ######
 
+ship "Ori' B Personal Flitter"
+	sprite "ship/PersonalFlitter"
+	thumbnail "thumbnails/PersonalFlitterThumb"
+		scale 1
+	attributes
+		category Utility
+		cost 250000
+		mass 250
+		licenses
+			"IltanBasics"
+		bunks 1
+		"cargo space" 5
+		drag 1
+		"engine capacity" 45
+		"fuel capacity" 500
+		"heat dissapation" 0.95
+		"hull" 4000
+		"outfit space" 300
+		"required crew" 1
+		"shields" 4000
+		"weapon capacity" 0
+		"bot capacity" 1
+		"Ori' Cargo Clamp" 1
+		
+	outfits
+		"Haltek Propulsion System" 1
+		"Denari A Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro Mini Power Bank" 1
+		"Ket La' Igna Power System" 1
+		"Iltan Small Cooling System" 1
+		
+	engine 0 33
+
+	description "The Ori' B is the publicly available version of the Ori' Personal Flitter, commissioned by Arateki'Igna Mining Company for their managers to quickly get from point A to point B."
+	description "Because it was originally an industrial product, the Ori' features a clamp for carrying cargo containers."
+	
+	
 ship "Iltan Interceptor"
 	sprite "ship/IltanInterceptor"
 	thumbnail "thumbnails/IltanInterceptorThumb"
@@ -96,7 +134,7 @@ ship "Iltan Gunboat"
 		"outfit space" 1200
 		"required crew" 6
 		shields 20000
-		"weapon capacity" 380
+		"weapon capacity" 320
 		
 	outfits
 		"Denari SS Shield Generator" 1

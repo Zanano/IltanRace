@@ -1,9 +1,23 @@
+ship "Ori' B Personal Flitter" "StarterOri"
+	sprite "ship/PersonalFlitter"
+	thumbnail "thumbnails/PersonalFlitterThumb"
+	outfits
+		"Haltek Propulsion System" 1
+		"Denari A Shield Generator" 1
+		"Iltan Transport Drive"
+		"Oro Mini Power Bank" 1
+		"Ket La' Igna Power System" 1
+		"Iltan Small Cooling System" 1
+
+
+
+
 ship "Iltan Interceptor" "Iltan Interceptor Variant"
 	add attributes
 		#none
 	outfits
 		"XellaCom Communications Node" 1
-		"Iltan Astromech"
+		"Iltan Astromech - Lagg Ta' Model" 2
 		"Subspace Cannon" 2
 		"Iltan Generic Fuel Node" 1
 

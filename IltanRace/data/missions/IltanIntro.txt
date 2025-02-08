@@ -3,15 +3,14 @@ event "AllowPaintedThresholdAccess"
 	"reputation: PaintedThreshold1" = 1 #allows wormhole use until Reqs can update
 
 event "UpdatePTReqs"
-	planet "Painted Threshold To Chrali' Hajha" # CH wormhole end
-		"required reputation" 0
-		
-	planet "Painted Threshold To Iltan" #Iltan wormhole end
+	planet "Painted Threshold"
 		"required reputation" 0
 
 mission "On Enter Chrali' Hajha"
 	invisible
 	landing
+	to offer
+		"IltanStart" < 1
 	to complete
 		never
 	on enter "Chrali' Hajha"
@@ -47,7 +46,7 @@ mission "IltanRepImproved" #If the player was initially disallowed wormhole acce
 		to complete
 			never
 		to offer
-		"IltanRepFailed" == 1
+			"IltanRepFailed" == 1
 		fail
 		conversation 
 			"You are allowed to dock with the Iltan gatekeeping station. As soon as you enter the station, you are greeted by an Iltan security officer."
@@ -59,7 +58,7 @@ mission "IltanRepImproved" #If the player was initially disallowed wormhole acce
 
 mission "Meeting the Ambassador"
 	landing
-	source "Painted Threshold To Iltan"
+	source "Painted Threshold"
 	destination	"Iltan"
 	name "Register at the Iltan Foreign Embassy"
 	description "You have been instructed to the Iltan Foreign embassy and register yourself as a captain within their space."
@@ -72,3 +71,7 @@ mission "Meeting the Ambassador"
 
 
 mission "Get a License"
+	landing
+	source
+	to offer
+		"IltanStart" < 1

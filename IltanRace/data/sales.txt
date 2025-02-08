@@ -1,7 +1,6 @@
 shipyard "Iltan Anyone"
-	#CivShuttle WIP
+	"Ori' B Personal Flitter"
 shipyard "Iltan Basics"
-	#CivTransport WIP
 	"Iltan Interceptor"
 	"Iltan Small Freighter"
 shipyard "Iltan MilTech"
@@ -45,9 +44,9 @@ outfitter "Iltan Basics"
 	"Iltan Transport Drive"
 	"Iltan Technician Deck"
 	"Iltan Astromech"
-	"Iltan Astromech - Lagg Ta' Model"
 	"Chilfri' Resource Scanner"
-	
+	"Ori' Passenger Pod"
+	"Ori' Cargo Pod"	
 
 outfitter "Iltan MilTech"
 	"Iltan Subspace Heat Shunt"
