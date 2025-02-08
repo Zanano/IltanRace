@@ -98,7 +98,58 @@ ship "Iltan Small Freighter"
 	
 	engine -16.5 104.5
 	engine 16.5 104.5
-	
+
+ship "Iltan Heavy Freighter"
+	sprite "ship/IltanHeavyFreighter"
+	thumbnail "thumbnails/IltanHeavyFreighterThumb"
+		scale 1
+	attributes
+		category "Heavy Freighter"
+		cost 3750000
+		mass 3550
+		licenses 
+			"Iltan Basics"
+		bunks 45
+		"cargo space" 3000
+		drag 40
+		"engine capacity" 250
+		"fuel capacity" 1800
+		"heat dissipation" 0.2
+		hull 25000
+		"outfit space" 2200
+		"required crew" 30
+		shields 2500
+		"weapon capacity" 450	
+	outfits
+	turret -23 -80
+	turret -23 -40
+	turret 23 -80
+	turret 23 -40	
+	"steering engine" -62 68.5
+		angle -90
+	"steering engine" 62 68.5
+		angle 90
+	engine -45 91
+	engine 45 91	
+	bay drone -23 2
+		angle -90
+		"launch effect" "remnant internal"
+	bay drone 23 2
+		angle 90
+		"launch effect" "remnant internal"
+	bay drone -23 2
+		angle -90
+		"launch effect" "remnant internal"
+	bay drone 23 2
+		angle 90
+		"launch effect" "remnant internal"
+	bay drone -23 2
+		angle -90
+		"launch effect" "remnant internal"
+	bay drone 23 2
+		angle 90
+		"launch effect" "remnant internal"
+		
 ship "Iltan Gunboat"
 	sprite "ship/IltanGunboat"
 	thumbnail "thumbnails/IltanGunboatThumb"

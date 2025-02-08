@@ -7,6 +7,25 @@ ship "Ori' B Personal Flitter" "StarterOri"
 		"Ket La' Igna Power System" 1
 		"Iltan Small Cooling System" 1
 
+ship "Iltan Heavy Freighter" "Generic"
+	outfits
+		"Iltan Medium Cooling System" 2
+		"Oro A Power Bank" 2
+		"Iltan Transport Drive"
+		"Denari A Shield Generator" 2
+		"Annu'Ka Su Reverse Thrusters" 2
+		"Annu'Ka Su Directional Thrusters" 2
+		"Annu'Ka Su Reaction Thrusters" 4
+		"Gehru Power System"
+		"Iltan Technician Deck" 1
+		"Iltan Astromech" 30
+		"Subspace Disruptor Turret" 4
+		"Chilfri' Resource Scanner"
+		"Iltan Generic Fuel Node" 8
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
+	turret "Subspace Disruptor Turret"
 
 
 ship "Iltan Interceptor" "Iltan Interceptor Variant"
