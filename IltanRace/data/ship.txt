@@ -121,32 +121,32 @@ ship "Iltan Heavy Freighter"
 		shields 2500
 		"weapon capacity" 450	
 	outfits
-	turret -23 -80
-	turret -23 -40
-	turret 23 -80
-	turret 23 -40	
-	"steering engine" -62 68.5
+	turret -72 -240
+	turret 72 -240
+	turret -72 -118
+	turret 72 -118
+	"steering engine" 188 204
 		angle -90
-	"steering engine" 62 68.5
+	"steering engine" -188 204
 		angle 90
-	engine -45 91
-	engine 45 91	
-	bay drone -23 2
+	engine -141 269
+	engine 141 269	
+	bay drone -69 10
 		angle -90
 		"launch effect" "remnant internal"
-	bay drone 23 2
-		angle 90
-		"launch effect" "remnant internal"
-	bay drone -23 2
-		angle -90
-		"launch effect" "remnant internal"
-	bay drone 23 2
+	bay drone 69 10
 		angle 90
 		"launch effect" "remnant internal"
-	bay drone -23 2
+	bay drone -69 10
 		angle -90
 		"launch effect" "remnant internal"
-	bay drone 23 2
+	bay drone 69 10
+		angle 90
+		"launch effect" "remnant internal"
+	bay drone -69 10
+		angle -90
+		"launch effect" "remnant internal"
+	bay drone 69 10
 		angle 90
 		"launch effect" "remnant internal"
 		
