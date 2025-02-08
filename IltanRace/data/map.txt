@@ -112,6 +112,13 @@ planet "Chayi Maintenance Station"
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	port
+		recharges
+			all
+		services
+			trading
+			job board
+			offers missions
 	tribute 3000
 		fleet IltanWarFleet 2
 		fleet IltanPatrol 5
@@ -133,6 +140,15 @@ planet Iltan
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
+	port
+		recharges
+			all
+		services
+			trading
+			job board
+			offers missions
+			bank
+			hire crew
 	tribute 35000
 		fleet IltanWarFleet 3
 		fleet IltanHeavyPatrol 2
@@ -169,6 +185,14 @@ planet "Kalla' Eq' Station"
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	port
+		recharges
+			all
+		services
+			trading
+			job board
+			offers missions
+			
 	tribute 4000
 		fleet IltanHeavyPatrol 2
 		fleet IltanPatrol 3
@@ -309,6 +333,13 @@ planet "Igna Gas Processing Station"
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	port
+		recharges
+			all
+		services
+			trading
+			job board
+			offers missions
 	tribute 6500
 		fleet IltanHeavyPatrol 2
 		fleet IltanPatrol 3	
@@ -323,6 +354,15 @@ planet Naga
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
+	port
+		recharges
+			all
+		services
+			trading
+			job board
+			offers missions
+			bank
+			hire crew
 	tribute 10750
 		fleet IltanWarFleet 1
 		fleet IltanHeavyPatrol 3
