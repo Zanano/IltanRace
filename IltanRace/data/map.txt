@@ -106,6 +106,7 @@ system Iltan
 			offset 125
 
 planet "Chayi Maintenance Station"
+	description `Chayi Maintenance Station is the base of operations for the machinery surrounding the Iltan system's core. Home to thousands of technicians, engineers, and workers, it boasts many of the same amenities a small city would have.`
 	landscape "land/station49"
 	attributes factory
 	government Iltan
@@ -113,6 +114,7 @@ planet "Chayi Maintenance Station"
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
+	spaceport `The hangar is full of technical equipment and utility craft. Technicians and mechanics scurry around, almost frantically.`
 	port
 		recharges
 			all
@@ -125,6 +127,7 @@ planet "Chayi Maintenance Station"
 		fleet IltanPatrol 5
 
 planet "Threshold Guard Station"
+	description `This station is dedicated to the security of the Painted Threshold, and secondarily general patrols in the Iltan system.`
 	landscape "land/station9"
 	attributes military
 	government Iltan
@@ -134,7 +137,7 @@ planet "Threshold Guard Station"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
-	spaceport `Security is everywhere in the guard station's landing hangar.`
+	spaceport `Security is everywhere in the station's landing hangar.`
 	port
 		recharges
 			all
@@ -157,7 +160,7 @@ planet "Illas"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
-	spaceport `The spaceport is quiet, with the occasional personal transport or light freighter moving in or out. A group of scientists in lab coats are gathered at a nearby diner, eating a meal.`
+	spaceport `The spaceport is quiet, with the occasional personal transport or shuttle moving in or out. A group of scientists in lab coats are gathered at a nearby diner, eating a meal.`
 	port
 		recharges
 			all
@@ -190,7 +193,7 @@ planet Iltan
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
-	spaceport `The spaceport is a massive sprawling complex, held aloft by gravitic technology between two skyscrapers. You see three technicians scratching their head around a broken-down cargo drone.`
+	spaceport `The landing pad is attached to a massive sprawling complex, held aloft by gravitic technology between two skyscrapers. Citizens, merchants, and captains are everywhere. You see three technicians scratching their head around a broken-down cargo drone.`
 	port
 		recharges
 			all
@@ -231,6 +234,7 @@ planet "Painted Threshold"
 	spaceport ``
 			
 planet "Kalla' Eq' Station"
+	description `Kalla' Eq' Station is the front facing outpost for the Iltans. It is in charge of patrols and security on the galactic side of the Painted Threshold artificial wormhole.`
 	landscape "land/station32"
 	attributes "station" "guardpost"
 	government Iltan
@@ -238,7 +242,7 @@ planet "Kalla' Eq' Station"
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
-	spaceport `The small hangar is mostly empty save for a couple of patrol ships and cargo pallets.`
+	spaceport `The small hangar is mostly empty with the exception of a couple of patrol ships and some half-empty cargo pallets.`
 	port
 		recharges
 			all
@@ -256,7 +260,7 @@ planet "Kalla' Eq' Station"
 
 system Joss
 	attributes mining research education
-	pos -6999.0406 -3949.6496
+	pos -6999.0406 -3900
 	habitable 361.25
 	link Iltan
 	asteroids "small rock" 1 15
@@ -307,8 +311,9 @@ system Joss
 			period 125.91716
 	
 planet "Ana'i'"
+	description `Ana'i' is a luxurious paradise. A mild climate, calm weather, and beautiful vista. Resorts and retirement communities dot the planet's gorgeous landscape. `
 	landscape "land/CozyInterior"
-	attributes research education
+	attributes retirement wealthy rich paradise
 	government Iltan
 	"required reputation" 2
 	shipyard "Iltan Anyone"
@@ -329,15 +334,15 @@ planet "Ana'i'"
 		fleet IltanPatrol 3		
 		
 planet "Kal"
-	description `Kal is a mining focused planet, with many resources being processed directly on the planet in many factories.`
+	description `Kal is a mining focused planet, with the majority if resources being processed directly on the planet in many factories.`
 	landscape "land/MiningMachine"
-	attributes mining factory
+	attributes mining factory shipping
 	government Iltan
 	"required reputation" 2
 	shipyard "Iltan Anyone"
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
-	spaceport ``
+	spaceport `The spaceport is noisy, with cargo drones flitting from bays to ships and back again. The amount of cargo being processed is honestly impressive.`
 	port
 		recharges
 			all
@@ -374,7 +379,7 @@ system "Yeg Asteroid Field"
 
 system "Naga Irn"
 	attributes mining
-	pos -7124.359 -3901.594
+	pos -7144.359 -3901.594
 	habitable 2343.2
 	link Iltan
 	asteroids "small rock" 25 .1
@@ -425,7 +430,7 @@ system "Naga Irn"
 
 planet "Igna Gas Processing Station"
 	landscape "land/station50"
-	description `This processing station supports a fleet of utlity ships that siphon off gasses from the gas giant it orbits. These gasses are packages or processed for shipping to a variety of locations.`
+	description `This processing station supports a fleet of utlity ships that siphon off gasses from the gas giant it orbits. These gasses are packaged and processed for shipping to a variety of locations.`
 	attributes factory shipping
 	government Iltan
 	"required reputation" 2
@@ -445,7 +450,7 @@ planet "Igna Gas Processing Station"
 		fleet IltanPatrol 3	
 	
 planet Naga
-	description `Naga is a beautiful planet, with a large number of communes that focus on handmade goods and tourism.
+	description `Naga is a beautiful planet, with a large number of communes that focus on handmade goods and tourism.`
 	landscape "land/CommuneLandscape"
 	attributes factory urban shipping tourism
 	government Iltan
@@ -456,7 +461,7 @@ planet Naga
 	outfitter "Iltan Anyone"
 	outfitter "Iltan Basics"
 	outfitter "Iltan MilTech"
-	spaceport `The spaceport you have landed at seems focused on comfort and ease, geared for tourists.`
+	spaceport `The spaceport you have landed at seems focused on comfort and ease, geared for tourists. An Iltan family of four is enjoying an afternoon snack at a cafe, their four legged pet laying underneath the table.`
 	port
 		recharges
 			all

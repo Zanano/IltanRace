@@ -24,7 +24,7 @@ mission "IltanCargoFood1"
 	cargo IltanFood 5 2 .1
 	source
 		government "Iltan"
-		has attributes "shipping"
+		attributes "shipping"
 	destination
 		distance 1 10
 		government "Iltan"
@@ -43,7 +43,7 @@ mission "IltanCargoFood2"
 	cargo IltanSupplies 5 2 .1
 	source
 		government "Iltan"
-		has attributes "shipping"
+		attributes "shipping"
 	destination
 		distance 1 10
 		government "Iltan"
@@ -61,9 +61,9 @@ mission "IltanCargoIndustrialA"
 	cargo IltanIndustrialSupplies 10 2 .1
 	source
 		government "Iltan"
-		has attributes "shipping"
+		attributes "shipping"
 	destination
-		has attributes "Factory"
+		attributes "Factory"
 		distance 1 10
 		government "Iltan"
 	on visit
@@ -80,10 +80,10 @@ mission "IltanCargoIndustrialB"
 	cargo IltanIndustrialSupplies 10 2 .1
 	source
 		government "Iltan"
-		has attributes "shipping"
+		attributes "shipping"
 	destination
 		distance 1 10
-		has attributes "factory"
+		attributes "factory"
 		government "Iltan"
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -116,10 +116,10 @@ mission "IltanCargoMedical1"
 	cargo IltanMedicine 5 2 .1
 	source
 		government "Iltan"
-		has attributes "shipping"
+		attributes "shipping"
 	destination
 		distance 1 10
-		has attributes "medical"
+		attributes "medical"
 		government "Iltan"
 	on visit
 		dialog phrase "generic cargo on visit"

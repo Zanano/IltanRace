@@ -69,9 +69,9 @@ ship "Iltan Interceptor"
 	engine -8.5 41
 	engine 8.5 41
 
-ship "Iltan Small Freighter"
-	sprite "ship/IltanSmallFreighter"
-	thumbnail "thumbnails/IltanSmallFreighterThumb"
+ship "Iltan Light Freighter"
+	sprite "ship/IltanLightFreighter"
+	thumbnail "thumbnails/IltanLightFreighterThumb"
 		scale 1
 	attributes
 		category "Light Freighter"
@@ -112,7 +112,7 @@ ship "Iltan Heavy Freighter"
 		bunks 45
 		"cargo space" 3000
 		drag 40
-		"engine capacity" 250
+		"engine capacity" 350
 		"fuel capacity" 1800
 		"heat dissipation" 0.2
 		hull 25000
@@ -167,7 +167,7 @@ ship "Iltan Gunboat"
 		"fuel capacity" 800
 		"heat dissipation" 0.8
 		hull 10000
-		"outfit space" 1200
+		"outfit space" 1000
 		"required crew" 6
 		shields 20000
 		"weapon capacity" 400

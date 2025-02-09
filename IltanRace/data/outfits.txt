@@ -122,7 +122,7 @@ outfit "Oro A Power Bank"
 	mass 10
 	#thumbnail "outfit/PowerBankA"
 	thumbnail "outfit/InDeve" #TEMP
-	"energy capacity" 20000
+	"energy capacity" 12000
 	"energy consumption" 2
 	"heat generation" 20
 	"outfit space" -20
@@ -136,7 +136,7 @@ outfit "Oro B Power Bank"
 	mass 6
 	#thumbnail "outfit/PowerBankB"
 	thumbnail "outfit/InDeve" #TEMP
-	"energy capacity"10000
+	"energy capacity" 8000
 	"energy consumption" 1
 	"heat generation" 10
 	"outfit space" -10
@@ -178,7 +178,7 @@ outfit "Gehru Power System"
 	#thumbnail outfit/unknown
 	thumbnail "outfit/InDeve" #TEMP
 	licenses "Iltan MilTech"
-	"energy generation" 250
+	"energy generation" 180
 	"heat generation" 70
 	"outfit space" -100
 	description "Gehru, meaning King or Emperor, is a fitting name for this insanely powerful ship generator."
@@ -192,7 +192,7 @@ outfit "Ket La' Igna Power System"
 	#thumbnail outfit/unknown
 	thumbnail "outfit/InDeve" #TEMP
 	licenses "Iltan MilTech"
-	"energy generation" 175
+	"energy generation" 121
 	"heat generation" 30
 	"outfit space" -50
 	description "The Ket La' Igna Power System is the basic Iltan generator. Great for shuttles, smaller ships, fighters, interceptors. Still very powerful."
@@ -253,7 +253,7 @@ outfit "Annu'Ka Su Reaction Thrusters"
 	"mass" 50
 	"outfit space" -25
 	"engine capacity" -25
-	"turn" 800
+	"turn" 1000
 	"turning energy" 10
 	"turning heat" 20
 	"flare sprite" "effect/pug flare/huge"
@@ -314,7 +314,7 @@ outfit "Iltan Transport Drive"
 #	thumbnail "outfit/IltanTransportDrive"
 	thumbnail "outfit/InDeve" #TEMP
 	"energy consumption" 10
-	"fuel generation" 1
+	"fuel generation" .8
 	hyperdrive 1
 	"hyperdrive fuel" 75
 	"jump drive" 1
@@ -343,7 +343,7 @@ outfit "XellaCom Communications Node"
 	"outfit space" -10
 	"tactical scan power" 39
 	description "Iltan Comms Nodes are small but powerful."
-	description "Designed by the XellaCom division of the Iltan military, this Comms Node is more powerful and gleans more information."
+	description "Designed by the XellaCom division of the Iltan military, this Comms Node is more powerful and gleans more information from scanned targets."
 
 outfit "Chilfri' Resource Scanner"
 	licenses 
@@ -441,7 +441,7 @@ outfit "Iltan 'Cahj Ki' Bot"
 outfit "Ori' Cargo Pod"
 	licenses
 		"Iltan Basics"
-	cost 20000
+	cost 15000
 	category "Systems"
 #	thumbnail "outfit/OriCargoPod"
 	thumbnail "outfit/InDeve" #TEMP

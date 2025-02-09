@@ -4,3 +4,4 @@ category ship
 
 category "bay type"
 	"Fast Warship"
+	"Drone"

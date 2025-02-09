@@ -16,10 +16,10 @@ outfit "Subspace Cannon"
 		sprite "projectile/SubspaceRound"
 			"frame rate" 15
 			rewind
-		sound torpedo
+		sound "subspaceround"
 		"hit effect" "SubspaceRoundHit"
 		lifetime 50
-		reload 60
+		reload 30
 		velocity 40
 		inaccuracy 1
 		"firing energy" 300
@@ -55,10 +55,10 @@ outfit "Subspace Cannon Turret"
 		sprite "projectile/SubspaceRound"
 			"frame rate" 8
 			rewind
-		sound "torpedo"
+		sound "subspaceround"
 		"hit effect" "SubspaceRoundHit"
 		lifetime 50
-		reload 60
+		reload 30
 		velocity 40
 		inaccuracy 1
 		"turret turn" 4
@@ -137,3 +137,35 @@ outfit "Subspace Disruptor Turret"
 #
 # TO-DO: Submunition explosive, subspace torpedo, gravitic mining laser, check if submunitions can gravity targets towards their origin?
 #
+
+
+
+
+outfit "MACROWAVE ASSAULT BEAM"
+	category Guns
+	cost 450000000
+	mass 90
+	thumbnail "outfit/Macrowave"
+	licenses 
+		"Iltan MilTech"
+	"outfit space" -50
+	"MacrowaveMount" -1
+	"weapon capacity" -50
+	"required crew" 1
+	weapon
+		sprite "projectile/macrowave"
+			"frame rate" 10
+			rewind
+		sound "subspacewave"
+		reload 1
+		lifetime 1
+		velocity 2500
+		"firing energy" 1
+		"firing force" 1
+		"firing heat" 4
+		"shield damage" 1000
+		"hull damage" 1000
+		"hit force" 0
+		"prospecting" 10
+		
+	description "Dear God... Why?"

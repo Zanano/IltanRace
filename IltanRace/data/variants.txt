@@ -15,7 +15,7 @@ ship "Iltan Heavy Freighter" "Generic"
 		"Denari A Shield Generator" 2
 		"Annu'Ka Su Reverse Thrusters" 2
 		"Annu'Ka Su Directional Thrusters" 2
-		"Annu'Ka Su Reaction Thrusters" 4
+		"Annu'Ka Su Reaction Thrusters" 2
 		"Gehru Power System"
 		"Iltan Technician Deck" 1
 		"Iltan Astromech" 30
@@ -27,7 +27,28 @@ ship "Iltan Heavy Freighter" "Generic"
 	turret "Subspace Disruptor Turret"
 	turret "Subspace Disruptor Turret"
 
-
+ship "Iltan Heavy Freighter" "Iltan Heavy Freighter (Monstrosity)"
+	outfits
+		"Iltan Medium Cooling System" 4
+		"Oro-Plus Power Bank" 1
+		"Iltan Transport Drive"
+		"Denari SS Shield Generator" 1
+		"Annu'Ka Su Reverse Thrusters" 2
+		"Annu'Ka Su Directional Thrusters" 2
+		"Annu'Ka Su Reaction Thrusters" 2
+		"Gehru Power System"
+		"Iltan Technician Deck" 1
+		"Iltan Astromech" 30
+		"MACROWAVE ASSAULT BEAM"
+	add attributes 
+		"Macrowave Mount" +1
+		"engine capacity" +100
+		"weapon capacity" +100
+		"cargo space" -1700
+	gun 0 -285 "MACROWAVE ASSAULT BEAM"
+		
+	description "Someone had too much time and money on their hands for this..."
+	
 ship "Iltan Interceptor" "Iltan Interceptor Variant"
 	outfits
 		"XellaCom Communications Node" 1
@@ -41,7 +62,7 @@ ship "Iltan Interceptor" "Iltan Interceptor Variant"
 		"Ket La' Igna Power System" 1
 		"Iltan Small Cooling System" 1
 
-ship "Iltan Small Freighter" "Iltan Small Freighter Basic"
+ship "Iltan Light Freighter" "Iltan Light Freighter Basic"
 	outfits
 		"Denari A Shield Generator" 1
 		"Iltan Transport Drive"
