@@ -120,12 +120,11 @@ outfit "Oro A Power Bank"
 	category "Power"
 	cost 250000
 	mass 10
-	#thumbnail "outfit/PowerBankA"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/PowerBankA"
 	"energy capacity" 12000
 	"energy consumption" 2
-	"heat generation" 20
-	"outfit space" -20
+	"heat generation" 30
+	"outfit space" -45
 	description "Iltan basic power bank. Generates heat and consumes energy."
 	
 outfit "Oro B Power Bank"
@@ -134,12 +133,11 @@ outfit "Oro B Power Bank"
 	category "Power"
 	cost 175000
 	mass 6
-	#thumbnail "outfit/PowerBankB"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/PowerBankB"
 	"energy capacity" 8000
 	"energy consumption" 1
-	"heat generation" 10
-	"outfit space" -10
+	"heat generation" 15
+	"outfit space" -32
 	description "Iltan basic power bank. Smaller than A. Generates heat and consumes energy."
 
 outfit "Oro Mini Power Bank"
@@ -148,11 +146,10 @@ outfit "Oro Mini Power Bank"
 	category "Power"
 	cost 10000
 	mass 3.5
-	#thumbnail "outfit/PowerBankMini"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/PowerBankMini"
 	"energy capacity" 3000
-	"heat generation" 2
-	"outfit space" -5
+	"heat generation" 4
+	"outfit space" -12
 	description "Iltan miniature power bank for smaller power storage requirements."
 
 outfit "Oro-Plus Power Bank"
@@ -161,12 +158,11 @@ outfit "Oro-Plus Power Bank"
 	category "Power"
 	cost 1000000
 	mass 40
-	#thumbnail "outfit/PowerBankPlus"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/PowerBankPlus"
 	"energy capacity" 2000000
-	"energy consumption" 10
-	"heat generation" 35
-	"outfit space" -50
+	"energy consumption" 25
+	"heat generation" 45
+	"outfit space" -150
 	description "Massive Iltan power bank. Generates a lot of heat and uses energy to maintain the massive storage capacity."
 
 outfit "Gehru Power System"
