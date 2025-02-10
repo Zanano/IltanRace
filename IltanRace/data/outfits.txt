@@ -80,8 +80,7 @@ outfit "Denari SS Shield Generator"
 	category "Systems"
 	cost 1000000
 	mass 100
-	#thumbnail "outfit/DenariSS"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/DenariSS"
 	licenses "Iltan MilTech"
 	"burn resistance" 0.5
 	"disruption resistance" 0.2
@@ -100,8 +99,7 @@ outfit "Denari A Shield Generator"
 	category "Systems"
 	cost 60000
 	mass 10
-	#thumbnail "outfit/DenariA"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/DenariA"
 	"energy consumption" 3
 	"outfit space" -25
 	"shield generation" 5
