@@ -169,10 +169,9 @@ outfit "Gehru Power System"
 	licenses
 		"Iltan Basics"
 	category "Power"
-	cost 30000000
+	cost 3000000
 	mass 100
-	#thumbnail outfit/unknown
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/GehruPowerSystem"
 	licenses "Iltan MilTech"
 	"energy generation" 180
 	"heat generation" 70
@@ -183,11 +182,10 @@ outfit "Ket La' Igna Power System"
 	licenses
 		"Iltan Basics"
 	category "Power"
-	cost 15000000
+	cost 1500000
 	mass 100
-	#thumbnail outfit/unknown
-	thumbnail "outfit/InDeve" #TEMP
-	licenses "Iltan MilTech"
+	thumbnail outfit/KetLaIgnaPowerSystem
+	licenses "Iltan Basics"
 	"energy generation" 121
 	"heat generation" 30
 	"outfit space" -50
