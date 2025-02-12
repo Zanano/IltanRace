@@ -61,6 +61,7 @@ ship "Iltan Interceptor"
 		shields 8000
 		"weapon capacity" 150
 		"bot capacity" 2
+		"energy capacity" 250
 		
 	outfits
 	
@@ -90,6 +91,7 @@ ship "Iltan Light Freighter"
 		"required crew" 6
 		shields 10000
 		"weapon capacity" 380
+		"energy capacity" 2200
 		
 	outfits
 
@@ -120,6 +122,7 @@ ship "Iltan Heavy Freighter"
 		"required crew" 30
 		shields 2500
 		"weapon capacity" 450	
+		"energy capacity" 6000
 	outfits
 	turret -72 -240
 	turret 72 -240
@@ -171,6 +174,7 @@ ship "Iltan Gunboat"
 		"required crew" 6
 		shields 20000
 		"weapon capacity" 400
+		"energy capacity" 4000
 		
 	outfits
 
@@ -277,7 +281,7 @@ ship "Aggrero"
 		scale 1
 	attributes
 		category "Light Warship"
-		cost 870000000
+		cost 87000000
 		mass 1100
 		licenses 
 			"Iltan MilTech"
@@ -319,7 +323,7 @@ ship Tetryon
 		scale 1
 	attributes
 		category Superheavy
-		cost 4500000000
+		cost 120000000
 		mass 4500
 		licenses 
 			"Iltan MilTech"

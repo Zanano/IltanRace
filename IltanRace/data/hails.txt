@@ -67,6 +67,8 @@ phrase "FailingSystems"
 		"hull" 8
 		"structural integrity" 8
 		"sense-of-humor"
+		"ventilation system" 5
+		"deep fryer"
 		
 		
 phrase "IltanGreetings"
@@ -80,7 +82,7 @@ phrase "IltanGreetings"
 		
 phrase IltanFactoids
 	word
-		"Did you hear they found an ancient lost Apashe album?" 2
+		"Did you hear they found an ancient lost Apashe album?" 1
 		"One of the most well known musicians on Iltan is an ancient earth Human." 2
 		"Iltans are masters of gravitic technology." 4
 		"Iltans are masters of subspace technology." 4
@@ -96,3 +98,4 @@ phrase IltanRandom
 		"${IltanFirstNames}, get off of the comms station! Here, take your juiceb-"
 		"My cousin has blue skin! He says it's a genetic mutation that has been occurring more often. His kids have it too. It's harmless apparently."
 		"Know any good artists? My cousin ${IltanFirstNames} started making music recently, he's actually got talent."
+		"This damn fuel leak has been driving me crazy."

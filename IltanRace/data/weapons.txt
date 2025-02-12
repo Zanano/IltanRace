@@ -90,14 +90,15 @@ outfit "Subspace Disruptor"
 		sound "subspacewave"
 		reload 1
 		lifetime 1
+		"inaccuracy" .2
 		velocity 1600
-		"firing energy" .4
+		"firing energy" 2.4
 		"firing force" 0
-		"firing heat" 1.5
+		"firing heat" 2.5
 		"shield damage" 0
 		"hull damage" 4
 		"hit force" 0
-		"prospecting" 3
+		"prospecting" 8
 		
 	description "A fearsome weapon that distorts subspace in a line, causing havoc on anything with a material form. As such, it shreds hull, but does nothing against shields."
 	description "Coincidentally great for mining due to the fact it breaks materials up into particulate sizes."
@@ -121,11 +122,12 @@ outfit "Subspace Disruptor Turret"
 		sound "subspacewave"
 		reload 1
 		lifetime 1
+		"inaccuracy" .2
 		velocity 1600
 		"turret turn" 4
-		"firing energy" .4
+		"firing energy" 2.4
 		"firing force" 0
-		"firing heat" 1.5
+		"firing heat" 2.5
 		"shield damage" 0
 		"hull damage" 4
 		"hit force" 0

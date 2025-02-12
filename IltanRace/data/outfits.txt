@@ -30,8 +30,8 @@ outfit "Iltan Small Cooling System"
 	cost 65000
 	mass 6
 	thumbnail "outfit/IltanSmallCooling"
-	"active cooling" 30
-	cooling 20
+	"active cooling" 10
+	cooling 10
 	"cooling energy" 4
 	"outfit space" -6
 
@@ -43,8 +43,8 @@ outfit "Iltan Medium Cooling System"
 	mass 12
 	#thumbnail "outfit/IltanMediumCooling"
 	thumbnail "outfit/InDeve" #TEMP
-	"active cooling" 55
-	cooling 35
+	"active cooling" 28
+	cooling 22
 	"cooling energy" 7
 	"outfit space" -12
 
@@ -79,16 +79,16 @@ outfit "Iltan Subspace Heat Shunt"
 outfit "Denari SS Shield Generator"
 	category "Systems"
 	cost 1000000
-	mass 100
+	mass 75
 	thumbnail "outfit/DenariSS"
 	licenses "Iltan MilTech"
 	"burn resistance" 0.5
 	"disruption resistance" 0.2
-	"energy consumption" 3
+	"energy consumption" 5
 	"outfit space" -75
 	"piercing resistance" 0.2
-	"shield energy" 8
-	"shield generation" 14
+	"shield energy" 12
+	"shield generation" 7
 	"shield heat" 10
 	shields 20000
 	description "The premier Iltan shield system, with extreme levels of efficiency and generation capability."
@@ -102,8 +102,8 @@ outfit "Denari A Shield Generator"
 	thumbnail "outfit/DenariA"
 	"energy consumption" 3
 	"outfit space" -25
-	"shield generation" 5
-	"shield heat" 10
+	"shield generation" 3.5
+	"shield heat" 8
 	shields 4000
 	description "The Iltan's basic shield generator. Still powerful."
 
@@ -112,7 +112,7 @@ outfit "Denari A Shield Generator"
 #
 
 
-outfit "Oro A Power Bank"
+outfit "Ora A Power Bank"
 	licenses
 		"Iltan Basics"
 	category "Power"
@@ -125,7 +125,7 @@ outfit "Oro A Power Bank"
 	"outfit space" -45
 	description "Iltan basic power bank. Generates heat and consumes energy."
 	
-outfit "Oro B Power Bank"
+outfit "Ora B Power Bank"
 	licenses
 		"Iltan Basics"
 	category "Power"
@@ -138,7 +138,7 @@ outfit "Oro B Power Bank"
 	"outfit space" -32
 	description "Iltan basic power bank. Smaller than A. Generates heat and consumes energy."
 
-outfit "Oro Mini Power Bank"
+outfit "Ora Mini Power Bank"
 	licenses
 		"Iltan Basics"
 	category "Power"
@@ -150,14 +150,14 @@ outfit "Oro Mini Power Bank"
 	"outfit space" -12
 	description "Iltan miniature power bank for smaller power storage requirements."
 
-outfit "Oro-Plus Power Bank"
+outfit "Ora-Plus Power Bank"
 	licenses
 		"Iltan Basics"
 	category "Power"
 	cost 1000000
 	mass 40
 	thumbnail "outfit/PowerBankPlus"
-	"energy capacity" 2000000
+	"energy capacity" 200000
 	"energy consumption" 25
 	"heat generation" 45
 	"outfit space" -150
@@ -167,11 +167,11 @@ outfit "Gehru Power System"
 	licenses
 		"Iltan Basics"
 	category "Power"
-	cost 3000000
+	cost 30000000
 	mass 100
 	thumbnail "outfit/GehruPowerSystem"
 	licenses "Iltan MilTech"
-	"energy generation" 180
+	"energy generation" 60
 	"heat generation" 70
 	"outfit space" -100
 	description "Gehru, meaning King or Emperor, is a fitting name for this insanely powerful ship generator."
@@ -180,13 +180,13 @@ outfit "Ket La' Igna Power System"
 	licenses
 		"Iltan Basics"
 	category "Power"
-	cost 1500000
-	mass 100
+	cost 8500000
+	mass 65
 	thumbnail outfit/KetLaIgnaPowerSystem
 	licenses "Iltan Basics"
-	"energy generation" 121
-	"heat generation" 30
-	"outfit space" -50
+	"energy generation" 22
+	"heat generation" 28
+	"outfit space" -45
 	description "The Ket La' Igna Power System is the basic Iltan generator. Great for shuttles, smaller ships, fighters, interceptors. Still very powerful."
 
 #
@@ -201,13 +201,13 @@ outfit "Annu'Ka Su Directional Thrusters"
 	"cost" 8000000
 #	thumbnail "outfit/MediumThrusters"
 	thumbnail "outfit/InDeve" #TEMP
-	"mass" 200
+	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
 	"thrust" 100
 	"thrusting energy" 20
 	"thrusting heat" 25
-	"turn" 800
+	"turn" 1200
 	"turning energy" 10
 	"turning heat" 20
 	"flare sprite" "effect/pug flare/huge"
@@ -245,7 +245,7 @@ outfit "Annu'Ka Su Reaction Thrusters"
 	"mass" 50
 	"outfit space" -25
 	"engine capacity" -25
-	"turn" 1000
+	"turn" 1400
 	"turning energy" 10
 	"turning heat" 20
 	"flare sprite" "effect/pug flare/huge"
@@ -347,6 +347,7 @@ outfit "Chilfri' Resource Scanner"
 	thumbnail "outfit/InDeve" #TEMP
 	"outfit space" -25
 	"asteroid scan power" 39
+	"atmosphere scan" 150
 	description "Used by Iltan miners and scouts, this scanning system is designed for determining asteroid composition at long range."
 
 #

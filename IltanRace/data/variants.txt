@@ -3,14 +3,14 @@ ship "Ori' B Personal Flitter" "StarterOri"
 		"Haltek Propulsion System" 1
 		"Denari A Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro Mini Power Bank" 1
+		"Ora Mini Power Bank" 1
 		"Ket La' Igna Power System" 1
 		"Iltan Small Cooling System" 1
 
 ship "Iltan Heavy Freighter" "Generic"
 	outfits
 		"Iltan Medium Cooling System" 2
-		"Oro A Power Bank" 2
+		"Ora A Power Bank" 2
 		"Iltan Transport Drive"
 		"Denari A Shield Generator" 2
 		"Annu'Ka Su Reverse Thrusters" 2
@@ -30,7 +30,7 @@ ship "Iltan Heavy Freighter" "Generic"
 ship "Iltan Heavy Freighter" "Iltan Heavy Freighter (Monstrosity)"
 	outfits
 		"Iltan Medium Cooling System" 4
-		"Oro-Plus Power Bank" 1
+		"Ora-Plus Power Bank" 1
 		"Iltan Transport Drive"
 		"Denari SS Shield Generator" 1
 		"Annu'Ka Su Reverse Thrusters" 2
@@ -58,7 +58,7 @@ ship "Iltan Interceptor" "Iltan Interceptor Variant"
 		"Haltek Propulsion System" 3
 		"Denari A Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro Mini Power Bank" 2
+		"Ora Mini Power Bank" 2
 		"Ket La' Igna Power System" 1
 		"Iltan Small Cooling System" 1
 
@@ -66,7 +66,7 @@ ship "Iltan Light Freighter" "Iltan Light Freighter Basic"
 	outfits
 		"Denari A Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro A Power Bank"
+		"Ora A Power Bank"
 		"Annu'Ka Su Reverse Thrusters" 1
 		"Annu'Ka Su Directional Thrusters" 1
 		"Gehru Power System" 1
@@ -83,7 +83,7 @@ ship "Orbi' Tah" "Orbi' Tah (Patrol)"
 		"Iltan Astromech" 20
 		"Denari SS Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro A Power Bank" 2
+		"Ora A Power Bank" 2
 		"Annu'Ka Su Reverse Thrusters" 2
 		"Annu'Ka Su Directional Thrusters" 1
 		"Annu'Ka Su Reaction Thrusters" 2
@@ -112,7 +112,7 @@ ship Aggrero "Aggrero (Patrol)"
 		"Iltan Astromech" 20
 		"Denari SS Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro A Power Bank" 2
+		"Ora A Power Bank" 2
 		"Annu'Ka Su Reverse Thrusters" 1
 		"Annu'Ka Su Directional Thrusters" 2
 		"Annu'Ka Su Reaction Thrusters" 2
@@ -137,7 +137,7 @@ ship Tetryon "Tetryon (Warfleet)"
 		"Subspace Cannon" 2
 		"Subspace Disruptor Turret" 4
 		"Denari SS Shield Generator" 2
-		"Oro-Plus Power Bank"
+		"Ora-Plus Power Bank"
 		"XellaCom Communications Node" 4
 		"Iltan 'Cahj Ki' Bot" 15
 		"Iltan Astromech" 30
@@ -164,7 +164,7 @@ ship "Iltan Gunboat" "Iltan Gunboat (Patrol)"
 		"XellaCom Communications Node" 1
 		"Denari SS Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro A Power Bank"
+		"Ora A Power Bank"
 		"Annu'Ka Su Reverse Thrusters" 1
 		"Annu'Ka Su Directional Thrusters" 1
 		"Annu'Ka Su Reaction Thrusters" 2
