@@ -11,7 +11,7 @@ shipyard "modships"
 
 outfitter "modoutfits"
 	"Iltan Basics License"
-	"Iltan MilTech License"
+	"Iltan MilTech License"	
 	"Iltan Small Cooling System"
 	"Iltan Medium Cooling System"
 	"Iltan Heat Buffer"

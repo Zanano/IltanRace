@@ -106,7 +106,7 @@ outfit "Subspace Disruptor Turret"
 	category Turrets
 	cost 5500000
 	mass 90
-	thumbnail "outfit/SubspaceDisruptor"
+	thumbnail "outfit/SubspaceDisruptorTurret"
 	licenses 
 		"Iltan MilTech"
 	"outfit space" -110
