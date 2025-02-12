@@ -23,8 +23,8 @@ conversation "IltanRescue"
 	`	Realizing you understand them, you gather your strength and sit up. Your memory of events is fuzzy at best. The last you remember, you were onboard a long range exploration mission near Deep Space 19M5, hired as a scanning technician. `
 	choice
 		` "I think so." `
-	goto "ContinueIR"
-	label "ContinueIR"
+#	goto "ContinueIR"
+#	label "ContinueIR"
 	`	"You sure you're alright? Do you know your name?" `
 	name
 	`"Nice to meet you. My name is Sli'. Sli' Keelna'. One of our patrols found you drifting a few lightyears from our station. There wasn't a ship or any debris nearby. I can show you the logs if you want. I know you might not trust someone you just met." `

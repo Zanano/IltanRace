@@ -84,7 +84,7 @@ outfit "Subspace Disruptor"
 	"weapon capacity" -90
 	"required crew" 1
 	weapon
-		sprite "projectile/subspaceWave"
+		sprite "projectile/subspacewave"
 			"frame rate" 12
 			rewind
 		sound "subspacewave"
@@ -147,7 +147,7 @@ outfit "MACROWAVE ASSAULT BEAM"
 	category Guns
 	cost 450000000
 	mass 90
-	thumbnail "outfit/Macrowave"
+	thumbnail "outfit/unknown"
 	licenses 
 		"Iltan MilTech"
 	"outfit space" -50

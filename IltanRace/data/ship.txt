@@ -29,7 +29,7 @@ ship "Ori' B Personal Flitter"
 		"Haltek Propulsion System" 1
 		"Denari A Shield Generator" 1
 		"Iltan Transport Drive"
-		"Oro Mini Power Bank" 1
+		"Ora Mini Power Bank" 1
 		"Ket La' Igna Power System" 1
 		"Iltan Small Cooling System" 1
 		
@@ -134,22 +134,22 @@ ship "Iltan Heavy Freighter"
 		angle 90
 	engine -141 269
 	engine 141 269	
-	bay drone -69 10
+	bay Drone -69 10
 		angle -90
 		"launch effect" "remnant internal"
-	bay drone 69 10
+	bay Drone 69 10
 		angle 90
 		"launch effect" "remnant internal"
-	bay drone -69 10
+	bay Drone -69 10
 		angle -90
 		"launch effect" "remnant internal"
-	bay drone 69 10
+	bay Drone 69 10
 		angle 90
 		"launch effect" "remnant internal"
-	bay drone -69 10
+	bay Drone -69 10
 		angle -90
 		"launch effect" "remnant internal"
-	bay drone 69 10
+	bay Drone 69 10
 		angle 90
 		"launch effect" "remnant internal"
 		
@@ -341,7 +341,7 @@ ship Tetryon
 	outfits
 		"Denari SS Shield Generator" 4
 		"Iltan Transport Drive"
-		"Oro-Plus Power Bank"
+		"Ora-Plus Power Bank"
 		"Subspace Cannon Turret" 4
 		"XellaCom Communications Node" 2
 		"Annu'Ka Su Reverse Thrusters" 4
@@ -403,7 +403,7 @@ ship Tetryon
 	bay "Fast Warship" 0 -122
 	
 	description "Iltan superheavy flagship, only brought out during war or planetary defense. A formidable foe, acting as a carrier and superheavy battle cruiser."
-	description "Carries a full wing of drone fighters and can deploy two Fast Warships."
+	description "Carries a full wing of Drone fighters and can deploy two Fast Warships."
 
 ship "Tetryon X"
 	sprite "ship/Tetryon"
@@ -432,7 +432,7 @@ ship "Tetryon X"
 		"Denari SS Shield Generator" 6
 		"Iltan Transport Drive"
 		"Iltan Generic Fuel Node" 10
-		"Oro-Plus Power Bank" 2
+		"Ora-Plus Power Bank" 2
 		"Subspace Cannon" 8
 		"Subspace Cannon Turret" 16
 		"XellaCom Communications Node" 8
@@ -557,5 +557,5 @@ ship "Tetryon X"
 	bay "Fast Warship" 0 -122
 	
 	description "Originally the Flagship of a renowned, heroic Captain. The Tetryon X was custom built by the Iltan species as a gift for an act of extreme heroism. Featuring an advanced AI capable of replacing an otherwise massive crew, increased overall capabilities, and many additional gun and turret slots. This behemoth is a monster to behold."
-	description "Carries an even larger wing of drone fighters than the Tetryon, and can even deploy four fast warships."
+	description "Carries an even larger wing of Drone fighters than the Tetryon, and can even deploy four fast warships."
 

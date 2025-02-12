@@ -29,7 +29,7 @@ person "Jimmy Iltan"
 		outfits
 			"Denari SS Shield Generator" 2
 			"Iltan Transport Drive"
-			"Oro A Power Bank"
+			"Ora A Power Bank"
 			"Annu'Ka Su Reverse Thrusters" 1
 			"Annu'Ka Su Directional Thrusters" 2
 			"Annu'Ka Su Reaction Thrusters" 1
