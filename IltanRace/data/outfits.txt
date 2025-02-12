@@ -2,19 +2,19 @@
 ###### LICENSES
 #
 outfit "Iltan Anyone License"
-	category licenses
+	category Licenses
 	thumbnail "outfit/InDeve"
 
 outfit "Iltan Basics License"
-	category licenses
+	category Licenses
 	thumbnail "outfit/InDeve"
 	
 outfit "Iltan MilTech License"
-	category licenses
+	category Licenses
 	thumbnail "outfit/InDeve"
 	
 outfit "Zanano's Merit Award"
-	category licenses
+	category Licenses
 	thumbnail "outfit/InDeve"
 	
 
