@@ -10,7 +10,7 @@ ship "Ori' B Personal Flitter"
 		cost 250000
 		mass 250
 		licenses
-			"IltanBasics"
+			"Iltan Basics"
 		bunks 1
 		"cargo space" 5
 		drag 1
