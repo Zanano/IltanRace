@@ -209,6 +209,8 @@ planet Iltan
 		fleet IltanPatrol 4
 
 ############################## CHRALI' HAJHA
+system "Deep Space 19M5"
+	add link "Chrali' Hajha"
 
 system "Chrali' Hajha"
 	attributes wormhole
