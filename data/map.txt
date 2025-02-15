@@ -382,6 +382,7 @@ system "Naga Irn"
 	pos -7144.359 -3901.594
 	habitable 2343.2
 	link Iltan
+	link "Yeg Asteroid Field"
 	asteroids "small rock" 25 .1
 	minables "mediummetal1" 10 3
 	fleet IltanMiners 2200
