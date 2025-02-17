@@ -53,8 +53,7 @@ outfit "Iltan Heat Buffer"
 	category "Systems"
 	cost 250000
 	mass 12
-	#thumbnail "outfit/IltanHeatBuffer"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/IltanHeatBuffer"
 	"cooling energy" -5
 	"outfit space" -40
 	"overheat damage threshold" 0.2
