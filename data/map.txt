@@ -265,6 +265,16 @@ system Joss
 	pos -6999.0406 -3900
 	habitable 361.25
 	link Iltan
+	trade Clothing 326
+	trade Electronics 870
+	trade Equipment 414
+	trade Food 600
+	trade "Heavy Metals" 931
+	trade Industrial 677
+	trade "Luxury Goods" 1493
+	trade Medical 566
+	trade Metal 380
+	trade Plastic 538
 	asteroids "small rock" 1 15
 	minables iron 20 0.5
 	minables silver 12 6
@@ -365,6 +375,17 @@ system "Yeg Asteroid Field"
 	pos -7050 -3949.6496
 	habitable 1
 	link "Naga Irn"
+	link "Wellani' Ru"
+	trade Clothing 372
+	trade Electronics 869
+	trade Equipment 543
+	trade Food 361
+	trade "Heavy Metals" 917
+	trade Industrial 719
+	trade "Luxury Goods" 1378
+	trade Medical 788
+	trade Metal 270
+	trade Plastic 458
 	asteroids "small rock" 1 15
 	minables uranium 8 0.5
 	minables silicon 8 20
@@ -385,6 +406,17 @@ system "Naga Irn"
 	habitable 2343.2
 	link Iltan
 	link "Yeg Asteroid Field"
+	link "Wellani' Ru"
+	trade Clothing 381
+	trade Electronics 887
+	trade Equipment 496
+	trade Food 414
+	trade "Heavy Metals" 952
+	trade Industrial 709
+	trade "Luxury Goods" 1443
+	trade Medical 688
+	trade Metal 270
+	trade Plastic 478
 	asteroids "small rock" 25 .1
 	minables "mediummetal1" 10 3
 	fleet IltanMiners 2200
@@ -478,3 +510,94 @@ planet Naga
 		fleet IltanWarFleet 1
 		fleet IltanHeavyPatrol 3
 		fleet IltanPatrol 2
+		
+		
+############################## WELLANI' RU
+system "Wellani' Ru"
+	government Iltan
+	attributes tourism research
+	pos -7154 -4000
+	link "Naga Irn"
+	link "Yeg Asteroid Field"
+	link "Igba' Jeya'"
+	link Getta
+	
+	trade Clothing 413
+	trade Electronics 867
+	trade Equipment 573
+	trade Food 217
+	trade "Heavy Metals" 894
+	trade Industrial 730
+	trade "Luxury Goods" 1683
+	trade Medical 770
+	trade Metal 210
+	trade Plastic 466
+		object
+			sprite star/o3
+		object Wellas
+			sprite planet/desert9
+			distance 2306.0444
+			period 200.4593
+			object
+				sprite planet/lava0
+				distance 350
+				period 45
+planet Wellas
+	description `Wellas is a semi-arid, tropical planet. Mostly desert around the equator, Wellas has many large lakes in its northern and southern hemispheres, surrounded by resorts and fishing lodges.`
+	government Iltan
+	landscape "land/LakeResort"
+	attributes tourism fishing
+	"required reputation" 2
+	shipyard "Iltan Anyone"
+	shipyard "Iltan Basics"	
+	outfitter "Iltan Anyone"
+	outfitter "Iltan Basics"
+	spaceport `The spaceport you have landed at is situated in the middle of an extremely large lake, and is full of tourists and wealthy merchants. Small and large boats are constantly docking and undocking from the bays surrounding the double-duty port.`
+	port
+		recharges
+			all
+		services
+			trading
+			"job board"
+			"offers missions"
+			bank
+			"hire crew"	
+############################## GETTA
+system Getta
+	government Iltan
+	attributes
+	pos -7228 -4080
+		link "Wellani' Ru'"
+		link Cheg
+		
+		object
+			sprite star/m3
+############################## CHEG
+system Cheg
+	government Iltan
+	attributes
+	pos -7342 -4045
+		link Getta
+		
+		object
+			sprite star/g8
+############################## IGBA' JEYA'
+system "Igba' Jeya'"
+	government Iltan
+	attributes
+	pos -7030 -4030
+	link "Wellani' Ru'"
+
+	trade Clothing 381
+	trade Electronics 833
+	trade Equipment 593
+	trade Food 188
+	trade "Heavy Metals" 855
+	trade Industrial 685
+	trade "Luxury Goods" 1208
+	trade Medical 813
+	trade Metal 210
+	trade Plastic 476
+	
+	object
+		sprite star/k8
