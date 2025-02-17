@@ -181,7 +181,8 @@ ship "Iltan Heavy Freighter"
 		angle 90
 		"launch effect" "remnant internal"
 		
-	description `Carries 6 Drone bays to assist with loading, unloading, and mining operations.` 
+	description `Has 6 Drone bays to assist with loading and unloading cargo, or mining operations.` 
+	
 ship "Iltan Gunboat"
 	sprite "ship/IltanGunboat"
 	thumbnail "thumbnails/IltanGunboatThumb"
@@ -302,7 +303,8 @@ ship "Orbi' Tah"
 		angle -180
 		under
 		"launch effect" "remnant internal"
-	description `The Orbi' Tah fills the role of a carrier and sturdy warship. `
+		
+	description `The Orbi' Tah fills the role of a carrier and sturdy warship. It fields six fighters.`
 
 ship "Aggrero"
 	sprite "ship/Aggrero"
@@ -349,7 +351,7 @@ ship "Aggrero"
 	gun 31 -105.5
 	gun 12 -96
 
-	description `The Aggrero is considered a light warship because of its speed, not it's armament or defense. It fields a considerable amount of firepower in such a quick package.`
+	description `The Aggrero is considered a light warship because of its speed, not its armament or defense. It fields a considerable amount of firepower in such a quick package.`
 
 ship Tetryon
 	sprite "ship/Tetryon"
@@ -438,7 +440,7 @@ ship Tetryon
 	bay "Fast Warship" 0 -122
 	
 	description "Iltan superheavy flagship, only brought out during war or planetary defense. A formidable foe, acting as a carrier and superheavy battle cruiser."
-	description "Carries a full wing of Drone fighters and can deploy two Fast Warships such as the Iltan Gunboat."
+	description "Carries a full wing of six Drone fighters and can deploy two Fast Warships such as the Iltan Gunboat."
 
 ship "Tetryon X"
 	sprite "ship/Tetryon"
