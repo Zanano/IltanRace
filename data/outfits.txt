@@ -197,11 +197,10 @@ outfit "Annu'Ka Su Directional Thrusters"
 		"Iltan Basics"
 	category "Engines"
 	"cost" 800000
-#	thumbnail "outfit/MediumThrusters"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/IltanThrusters"
 	"mass" 80
-	"outfit space" -100
-	"engine capacity" -100
+	"outfit space" -80
+	"engine capacity" -80
 	"thrust" 130
 	"thrusting energy" 20
 	"thrusting heat" 20
@@ -219,8 +218,7 @@ outfit "Annu'Ka Su Reverse Thrusters"
 		"Iltan Basics"
 	category "Engines"
 	"cost" 400000
-#	thumbnail "outfit/MediumThrustersReverse"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/IltanReverseThrusters"
 	"mass" 40
 	"outfit space" -30
 	"engine capacity" -50
@@ -238,8 +236,7 @@ outfit "Annu'Ka Su Reaction Thrusters"
 		"Iltan Basics"
 	category "Engines"
 	"cost" 100000
-#	thumbnail "outfit/ReactionThrusters"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/IltanReactionThrusters"
 	"mass" 35
 	"outfit space" -25
 	"engine capacity" -25
@@ -257,8 +254,7 @@ outfit "Haltek Propulsion System"
 		"Iltan Basics"
 	category "Engines"
 	"cost" 75000
-#	thumbnail "outfit/SmallThrusters"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/HaltekThrusters"
 	"mass" 20
 	"outfit space" -25
 	"engine capacity" -25
