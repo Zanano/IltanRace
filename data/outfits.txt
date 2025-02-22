@@ -315,8 +315,7 @@ outfit "Iltan Transport Drive"
 	category "Systems"
 	cost 2600000
 	mass 35
-#	thumbnail "outfit/IltanTransportDrive"
-	thumbnail "outfit/InDeve" #TEMP
+	thumbnail "outfit/IltanTransportDrive"
 	"energy consumption" 10
 	"fuel generation" .1
 	hyperdrive 1
