@@ -22,7 +22,7 @@ outfit "Jal Ku"
 		
 	description `Translating to "deep wound", the Jal Ku is a coilgun of brutal efficiency. Utilizing gravitic compression to fire hyper-dense rounds at blistering speeds, the Jal Ku demolishes hull, and puts a decent strain on shields.`
 outfit "Jal Ku Turret"
-	category Guns
+	category Turrets
 	cost 200000
 	mass 30
 	thumbnail "outfit/IltanRailgunTurret"
