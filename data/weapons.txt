@@ -12,7 +12,7 @@ outfit "Jal Ku"
 		#sound ""
 		#"hit effect" ""
 		lifetime 30
-		reload 0.25
+		reload 10
 		velocity 110
 		"hit force" 40
 		"firing energy"  250
@@ -37,7 +37,7 @@ outfit "Jal Ku Turret"
 		#"hit effect" ""
 		"turret turn" 2.5
 		lifetime 30
-		reload 0.25
+		reload 10
 		velocity 110
 		"hit force" 40
 		"firing energy"  250
