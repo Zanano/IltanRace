@@ -15,10 +15,10 @@ outfit "Jal Ku"
 		reload 10
 		velocity 110
 		"hit force" 40
-		"firing energy"  250
-		"firing heat" 300
-		"shield damage" 300
-		"hull damage" 800
+		"firing energy"  160
+		"firing heat" 200
+		"shield damage" 80
+		"hull damage" 575
 		
 	description `Translating to "deep wound", the Jal Ku is a coilgun of brutal efficiency. Utilizing gravitic compression to fire hyper-dense rounds at blistering speeds, the Jal Ku demolishes hull, and puts a decent strain on shields.`
 outfit "Jal Ku Turret"
@@ -40,10 +40,10 @@ outfit "Jal Ku Turret"
 		reload 10
 		velocity 110
 		"hit force" 40
-		"firing energy"  250
-		"firing heat" 300
-		"shield damage" 300
-		"hull damage" 800
+		"firing energy"  160
+		"firing heat" 200
+		"shield damage" 90
+		"hull damage" 575
 		
 	description `Translating to "deep wound", the Jal Ku is a coilgun of brutal efficiency. Utilizing gravitic compression to fire hyper-dense rounds at blistering speeds, the Jal Ku demolishes hull, and puts a decent strain on shields.`
 
@@ -68,8 +68,8 @@ outfit "Zeda'Pa Particle Disruptor"
 		"hit force" 30
 		"firing energy"  1.2
 		"firing heat" 2.5
-		"shield damage" 5
-		"hull damage" 4
+		"shield damage" 6
+		"hull damage" 8
 		"disruption damage" .25
 	description "Fires extremely volatile anti-particles that react violently upon contact with normal matter. The relatively high energy of the particles causes strain on shield systems as well."
 
@@ -97,8 +97,8 @@ outfit "Zeda'Pa Particle Disruptor Turret"
 		"hit force" 30
 		"firing energy"  1.2
 		"firing heat" 2.5
-		"shield damage" 4
-		"hull damage" 3.2
+		"shield damage" 6
+		"hull damage" 8
 		"disruption damage" .25
 	description "Fires extremely volatile anti-particles that react violently upon contact with normal matter. The relatively high energy of the particles causes strain on shield systems as well."
 
@@ -130,12 +130,12 @@ outfit "Subspace Cannon"
 		"firing energy" 300
 		"firing force" 30
 		"firing heat" 500
-		"shield damage" 500
-		"hull damage" 400
+		"shield damage" 600
+		"hull damage" 300
 		"hit force" 100
 		"penetration count" 3
 		
-	description "Standard Iltan long range cannons. Uses gravitic compression to fire subspace-phasing rounds at high velocity over long ranges."
+	description "Standard Iltan long range cannons. Uses gravitic compression to fire subspace-phasing rounds at high velocity over long ranges. The rounds cause immense strain on shield matrices."
 
 effect "SubspaceRoundHit"
 	#sprite
@@ -170,11 +170,11 @@ outfit "Subspace Cannon Turret"
 		"firing energy" 300
 		"firing force" 30
 		"firing heat" 500
-		"shield damage" 500
-		"hull damage" 400
+		"shield damage" 600
+		"hull damage" 300
 		"hit force" 100
 		"penetration count" 3
-	description "Standard Iltan long range turrets. Uses gravitic compression to fire subspace-phasing rounds at high velocity over long ranges."
+	description "Standard Iltan long range turrets. Uses gravitic compression to fire subspace-phasing rounds at high velocity over long ranges. The rounds cause immense strain on shield matrices."
 
 
 outfit "Subspace Disruptor"
@@ -201,9 +201,9 @@ outfit "Subspace Disruptor"
 		"firing force" 0
 		"firing heat" 2.5
 		"shield damage" 0
-		"hull damage" 4
+		"hull damage" 16
 		"hit force" 0
-		"prospecting" 5
+		"prospecting" 8
 		
 	description "A fearsome weapon that causes fractures of subspace to bleed into its path, causing havoc on anything with a material form. As such, it shreds hull, but does nothing against shields."
 	description "Coincidentally great for mining due to the fact it breaks materials up into particulate sizes."
@@ -234,9 +234,9 @@ outfit "Subspace Disruptor Turret"
 		"firing force" 0
 		"firing heat" 2.5
 		"shield damage" 0
-		"hull damage" 4
+		"hull damage" 16
 		"hit force" 0
-		"prospecting" 5
+		"prospecting" 8
 		
 	description "A fearsome weapon that causes fractures of subspace to bleed into its path, causing havoc on anything with a material form. As such, it shreds hull, but does nothing against shields."
 	description "Coincidentally great for mining due to the fact it breaks materials up into particulate sizes."
